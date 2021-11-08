@@ -34,7 +34,9 @@ jobs:
     - name: Commit
       run: |
         cd cxon/benchmarks
-        git config user.name "oknenavin" && git config user.email ${{ secrets.CXON_MAIL }}
-        git add .
-        git commit -am "$(date -u --iso-8601=seconds)"
-        git push
+        if [[ `git status --porcelain` ]]; then
+          git config user.name "oknenavin" && git config user.email ${{ secrets.CXON_MAIL }}
+          git add .
+          git commit -am "$(date -u --iso-8601=seconds)"
+          git push
+        fi
