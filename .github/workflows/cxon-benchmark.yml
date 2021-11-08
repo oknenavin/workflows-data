@@ -8,8 +8,6 @@ jobs:
     steps:
     - name: Checkout workflows-data
       uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.WORKFLOWS_DATA_TOKEN }}
     - name: gnuplot setup
       run: |
         sudo apt-get update
@@ -36,12 +34,7 @@ jobs:
     - name: Commit
       run: |
         cd cxon/benchmarks
-        git --version
         git config user.name "oknenavin" && git config user.email ${{ secrets.CXON_MAIL }}
-        echo "success"
         git add .
-        echo "success"
         git commit -am "$(date -u --iso-8601=seconds)"
-        echo "success"
         git push
-        echo "success"
