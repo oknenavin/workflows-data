@@ -35,7 +35,9 @@ jobs:
         gnuplot -e "FILE='clang++.head.fast_float.json.native.data'" -e "TITLE='write/native (fast_float)'" src/benchmark-head-json-write.gp
     - name: Commit
       run: |
+        ls -la
         cd cxon/benchmarks
+        ls -la
         git config user.name "oknenavin" && git config user.email ${{ secrets.CXON_MAIL }}
         git add .
         git commit -am "$(date -u --iso-8601=seconds)"
