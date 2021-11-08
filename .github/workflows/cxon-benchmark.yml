@@ -36,7 +36,7 @@ jobs:
     - name: Commit
       run: |
         cd cxon/benchmarks
-        ls -la
+        git --version
         git config user.name "oknenavin" && git config user.email ${{ secrets.CXON_MAIL }}
         echo "success"
         git add .
