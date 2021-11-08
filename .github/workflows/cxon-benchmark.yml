@@ -1,0 +1,40 @@
+name: cxon benchmark
+
+on: [ push, pull_request, workflow_dispatch ]
+
+jobs:
+  gnuplot:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout workflows-data
+      uses: actions/checkout@v2
+    - name: gnuplot setup
+      run: |
+        sudo apt-get update
+        sudo apt-get install gnuplot
+    - name: Plot
+      run: |
+        cd cxon/benchmarks
+        gnuplot -e "FILE='g++.head.default.json.node.data'" -e "TITLE='read/node (default)'" src/benchmark-head-json-read.gp
+        gnuplot -e "FILE='g++.head.default.json.native.data'" -e "TITLE='read/native (default)'" src/benchmark-head-json-read.gp
+        gnuplot -e "FILE='g++.head.fast_float.json.node.data'" -e "TITLE='read/node (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "FILE='g++.head.fast_float.json.native.data'" -e "TITLE='read/native (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "FILE='g++.head.default.json.node.data'" -e "TITLE='write/node (default)'" src/benchmark-head-json-write.gp
+        gnuplot -e "FILE='g++.head.default.json.native.data'" -e "TITLE='write/native (default)'" src/benchmark-head-json-write.gp
+        gnuplot -e "FILE='g++.head.fast_float.json.node.data'" -e "TITLE='write/node (fast_float)'" src/benchmark-head-json-write.gp
+        gnuplot -e "FILE='g++.head.fast_float.json.native.data'" -e "TITLE='write/native (fast_float)'" src/benchmark-head-json-write.gp
+        gnuplot -e "FILE='clang++.head.default.json.node.data'" -e "TITLE='read/node (default)'" src/benchmark-head-json-read.gp
+        gnuplot -e "FILE='clang++.head.default.json.native.data'" -e "TITLE='read/native (default)'" src/benchmark-head-json-read.gp
+        gnuplot -e "FILE='clang++.head.fast_float.json.node.data'" -e "TITLE='read/node (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "FILE='clang++.head.fast_float.json.native.data'" -e "TITLE='read/native (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "FILE='clang++.head.default.json.node.data'" -e "TITLE='write/node (default)'" src/benchmark-head-json-write.gp
+        gnuplot -e "FILE='clang++.head.default.json.native.data'" -e "TITLE='write/native (default)'" src/benchmark-head-json-write.gp
+        gnuplot -e "FILE='clang++.head.fast_float.json.node.data'" -e "TITLE='write/node (fast_float)'" src/benchmark-head-json-write.gp
+        gnuplot -e "FILE='clang++.head.fast_float.json.native.data'" -e "TITLE='write/native (fast_float)'" src/benchmark-head-json-write.gp
+    - name: Commit
+      run: |
+        cd cxon/benchmarks
+        git config user.name "oknenavin" && git config user.email ${{ secrets.CXON_MAIL }}
+        git add .
+        git commit -am "$(date -u --iso-8601=seconds)"
+        git push
