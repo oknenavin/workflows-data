@@ -15,22 +15,22 @@ jobs:
     - name: Plot
       run: |
         cd cxon/benchmarks
-        gnuplot -e "FILE='g++.head.default.json.node.data'" -e "TITLE='read/node (default)'" src/benchmark-head-json-read.gp
-        gnuplot -e "FILE='g++.head.default.json.native.data'" -e "TITLE='read/native (default)'" src/benchmark-head-json-read.gp
-        gnuplot -e "FILE='g++.head.fast_float.json.node.data'" -e "TITLE='read/node (fast_float)'" src/benchmark-head-json-read.gp
-        gnuplot -e "FILE='g++.head.fast_float.json.native.data'" -e "TITLE='read/native (fast_float)'" src/benchmark-head-json-read.gp
-        gnuplot -e "FILE='g++.head.default.json.node.data'" -e "TITLE='write/node (default)'" src/benchmark-head-json-write.gp
-        gnuplot -e "FILE='g++.head.default.json.native.data'" -e "TITLE='write/native (default)'" src/benchmark-head-json-write.gp
-        gnuplot -e "FILE='g++.head.fast_float.json.node.data'" -e "TITLE='write/node (fast_float)'" src/benchmark-head-json-write.gp
-        gnuplot -e "FILE='g++.head.fast_float.json.native.data'" -e "TITLE='write/native (fast_float)'" src/benchmark-head-json-write.gp
-        gnuplot -e "FILE='clang++.head.default.json.node.data'" -e "TITLE='read/node (default)'" src/benchmark-head-json-read.gp
-        gnuplot -e "FILE='clang++.head.default.json.native.data'" -e "TITLE='read/native (default)'" src/benchmark-head-json-read.gp
-        gnuplot -e "FILE='clang++.head.fast_float.json.node.data'" -e "TITLE='read/node (fast_float)'" src/benchmark-head-json-read.gp
-        gnuplot -e "FILE='clang++.head.fast_float.json.native.data'" -e "TITLE='read/native (fast_float)'" src/benchmark-head-json-read.gp
-        gnuplot -e "FILE='clang++.head.default.json.node.data'" -e "TITLE='write/node (default)'" src/benchmark-head-json-write.gp
-        gnuplot -e "FILE='clang++.head.default.json.native.data'" -e "TITLE='write/native (default)'" src/benchmark-head-json-write.gp
-        gnuplot -e "FILE='clang++.head.fast_float.json.node.data'" -e "TITLE='write/node (fast_float)'" src/benchmark-head-json-write.gp
-        gnuplot -e "FILE='clang++.head.fast_float.json.native.data'" -e "TITLE='write/native (fast_float)'" src/benchmark-head-json-write.gp
+        gnuplot -e "INPUT='g++.head.default.json.node'" -e "OUTPUT='figures/g++.head.default.json.node'" -e "TITLE='read/node (default)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='g++.head.default.json.native'" -e "OUTPUT='figures/g++.head.default.json.native'" -e "TITLE='read/native (default)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='g++.head.fast_float.json.node'" -e "OUTPUT='figures/g++.head.fast_float.json.node'" -e "TITLE='read/node (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='g++.head.fast_float.json.native'" -e "OUTPUT='figures/g++.head.fast_float.json.native'" -e "TITLE='read/native (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='g++.head.default.json.node'" -e "OUTPUT='figures/g++.head.default.json.node'" -e "TITLE='write/node (default)'" src/benchmark-head-json-write.gp
+        gnuplot -e "INPUT='g++.head.default.json.native'" -e "OUTPUT='figures/g++.head.default.json.native'" -e "TITLE='write/native (default)'" src/benchmark-head-json-write.gp
+        gnuplot -e "INPUT='g++.head.fast_float.json.node'" -e "OUTPUT='figures/g++.head.fast_float.json.node'" -e "TITLE='write/node (fast_float)'" src/benchmark-head-json-write.gp
+        gnuplot -e "INPUT='g++.head.fast_float.json.native'" -e "OUTPUT='figures/g++.head.fast_float.json.native'" -e "TITLE='write/native (fast_float)'" src/benchmark-head-json-write.gp
+        gnuplot -e "INPUT='clang++.head.default.json.node'" -e "OUTPUT='figures/clang++.head.default.json.node'" -e "TITLE='read/node (default)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='clang++.head.default.json.native'" -e "OUTPUT='figures/clang++.head.default.json.native'" -e "TITLE='read/native (default)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='clang++.head.fast_float.json.node'" -e "OUTPUT='figures/clang++.head.fast_float.json.node'" -e "TITLE='read/node (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='clang++.head.fast_float.json.native'" -e "OUTPUT='figures/clang++.head.fast_float.json.native'" -e "TITLE='read/native (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='clang++.head.default.json.node'" -e "OUTPUT='figures/clang++.head.default.json.node'" -e "TITLE='write/node (default)'" src/benchmark-head-json-write.gp
+        gnuplot -e "INPUT='clang++.head.default.json.native'" -e "OUTPUT='figures/clang++.head.default.json.native'" -e "TITLE='write/native (default)'" src/benchmark-head-json-write.gp
+        gnuplot -e "INPUT='clang++.head.fast_float.json.node'" -e "OUTPUT='figures/clang++.head.fast_float.json.node'" -e "TITLE='write/node (fast_float)'" src/benchmark-head-json-write.gp
+        gnuplot -e "INPUT='clang++.head.fast_float.json.native'" -e "OUTPUT='figures/clang++.head.fast_float.json.native'" -e "TITLE='write/native (fast_float)'" src/benchmark-head-json-write.gp
     - name: Commit
       run: |
         cd cxon/benchmarks
