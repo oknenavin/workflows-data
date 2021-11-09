@@ -37,7 +37,7 @@ jobs:
         gnuplot -e "INPUT='g++.tail.default.json.native'" -e "OUTPUT='figures/g++.tail.default.json.native'" -e "TITLE='history - g++ read/native (default)'" src/benchmark-tail-json-read.gp
         gnuplot -e "INPUT='g++.tail.fast_float.json.node'" -e "OUTPUT='figures/g++.tail.fast_float.json.node'" -e "TITLE='history - g++ read/node (fast_float)'" src/benchmark-tail-json-read.gp
         gnuplot -e "INPUT='g++.tail.fast_float.json.native'" -e "OUTPUT='figures/g++.tail.fast_float.json.native'" -e "TITLE='history - g++ read/native (fast_float)'" src/benchmark-tail-json-read.gp
-        gnuplot -e "INPUT='g++.tail.default.json.node'" -e "OUTPUT='figures/g++.tail.default.json.node'" -e "TITLE='history - g++ write/node (default)'" src/benchmark-tail -json-write.gp
+        gnuplot -e "INPUT='g++.tail.default.json.node'" -e "OUTPUT='figures/g++.tail.default.json.node'" -e "TITLE='history - g++ write/node (default)'" src/benchmark-tail-json-write.gp
         gnuplot -e "INPUT='g++.tail.default.json.native'" -e "OUTPUT='figures/g++.tail.default.json.native'" -e "TITLE='history - g++ write/native (default)'" src/benchmark-tail-json-write.gp
         gnuplot -e "INPUT='g++.tail.fast_float.json.node'" -e "OUTPUT='figures/g++.tail.fast_float.json.node'" -e "TITLE='history - g++ write/node (fast_float)'" src/benchmark-tail-json-write.gp
         gnuplot -e "INPUT='g++.tail.fast_float.json.native'" -e "OUTPUT='figures/g++.tail.fast_float.json.native'" -e "TITLE='history - g++ write/native (fast_float)'" src/benchmark-tail-json-write.gp
