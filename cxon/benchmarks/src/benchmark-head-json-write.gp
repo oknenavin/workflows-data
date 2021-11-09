@@ -10,7 +10,7 @@ set ylabel 'Throughput (MB/s)'
 set xtics nomirror rotate by -30
 set grid ytics
 
-set output OUTPUT.'-write.png'
+set output OUTPUT.'-write.svg'
 plot INPUT.'.data'  using 10:xtic(1) lc rgb '#FF8C00' title 'cxon',\
                 ''  using 12         lc rgb '#32CD32' title 'boost/json',\
                 ''  using 14         lc rgb '#DC143C' title 'rapidjson',\
