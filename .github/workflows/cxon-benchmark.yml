@@ -18,7 +18,7 @@ jobs:
         gnuplot -e "INPUT='g++.head.default.json.node'" -e "OUTPUT='figures/g++.head.default.json.node'" -e "TITLE='g++ read/node (default)'" src/benchmark-head-json-read.gp
         gnuplot -e "INPUT='g++.head.default.json.native'" -e "OUTPUT='figures/g++.head.default.json.native'" -e "TITLE='g++ read/native (default)'" src/benchmark-head-json-read.gp
         gnuplot -e "INPUT='g++.head.fast_float.json.node'" -e "OUTPUT='figures/g++.head.fast_float.json.node'" -e "TITLE='g++ read/node (fast_float)'" src/benchmark-head-json-read.gp
-        gnuplot -e "INPUT='g++.head.fast_float.json.native'" -e "OUTPUT='figures/g++.head.fast_float.json.native'" -e "g++ TITLE='read/native (fast_float)'" src/benchmark-head-json-read.gp
+        gnuplot -e "INPUT='g++.head.fast_float.json.native'" -e "OUTPUT='figures/g++.head.fast_float.json.native'" -e "TITLE='g++ read/native (fast_float)'" src/benchmark-head-json-read.gp
         gnuplot -e "INPUT='g++.head.default.json.node'" -e "OUTPUT='figures/g++.head.default.json.node'" -e "TITLE='g++ write/node (default)'" src/benchmark-head-json-write.gp
         gnuplot -e "INPUT='g++.head.default.json.native'" -e "OUTPUT='figures/g++.head.default.json.native'" -e "TITLE='g++ write/native (default)'" src/benchmark-head-json-write.gp
         gnuplot -e "INPUT='g++.head.fast_float.json.node'" -e "OUTPUT='figures/g++.head.fast_float.json.node'" -e "TITLE='g++ write/node (fast_float)'" src/benchmark-head-json-write.gp
