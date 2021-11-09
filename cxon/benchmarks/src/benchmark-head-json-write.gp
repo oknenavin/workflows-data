@@ -1,5 +1,4 @@
-set terminal png size 900,450
-set termoption noenhanced
+set terminal svg dashed noenhanced size 900,450 font ',14' background rgb 'white'
 
 set style data histograms
 set boxwidth 0.70
