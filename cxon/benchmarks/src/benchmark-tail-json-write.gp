@@ -4,7 +4,7 @@ set title TITLE
 set ylabel 'Throughput (MB/s)'
 set xlabel 'Time'
 
-set xtics 1
+set format x ''
 set grid ytics
 
 set output OUTPUT.'-write.svg'
