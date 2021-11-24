@@ -96,6 +96,18 @@ jobs:
         gnuplot -e "INPUT='xcode.tail.default.json.native'" -e "OUTPUT='figures/xcode.tail.default.json.native'" -e "TITLE='history - xcode write/native (default)'" src/benchmark-tail-json-write.gp
         gnuplot -e "INPUT='xcode.tail.fast_float.json.node'" -e "OUTPUT='figures/xcode.tail.fast_float.json.node'" -e "TITLE='history - xcode write/node (fast_float)'" src/benchmark-tail-json-write.gp
         gnuplot -e "INPUT='xcode.tail.fast_float.json.native'" -e "OUTPUT='figures/xcode.tail.fast_float.json.native'" -e "TITLE='history - xcode write/native (fast_float)'" src/benchmark-tail-json-write.gp
+    - name: cross
+      run: |
+        cd cxon/benchmarks
+        # benchmarks
+        gnuplot -e "INPUT='head.default.json.node'" -e "OUTPUT='figures/cross.head.default.json.node'" -e "TITLE='cross read/node (default)'" src/benchmark-cross-head-json-read.gp
+        gnuplot -e "INPUT='head.default.json.native'" -e "OUTPUT='figures/cross.head.default.json.native'" -e "TITLE='cross read/native (default)'" src/benchmark-cross-head-json-read.gp
+        gnuplot -e "INPUT='head.fast_float.json.node'" -e "OUTPUT='figures/cross.head.fast_float.json.node'" -e "TITLE='cross read/node (fast_float)'" src/benchmark-cross-head-json-read.gp
+        gnuplot -e "INPUT='head.fast_float.json.native'" -e "OUTPUT='figures/cross.head.fast_float.json.native'" -e "TITLE='cross read/native (fast_float)'" src/benchmark-cross-head-json-read.gp
+        gnuplot -e "INPUT='head.default.json.node'" -e "OUTPUT='figures/cross.head.default.json.node'" -e "TITLE='cross write/node (default)'" src/benchmark-cross-head-json-write.gp
+        gnuplot -e "INPUT='head.default.json.native'" -e "OUTPUT='figures/cross.head.default.json.native'" -e "TITLE='cross write/native (default)'" src/benchmark-cross-head-json-write.gp
+        gnuplot -e "INPUT='head.fast_float.json.node'" -e "OUTPUT='figures/cross.head.fast_float.json.node'" -e "TITLE='cross write/node (fast_float)'" src/benchmark-cross-head-json-write.gp
+        gnuplot -e "INPUT='head.fast_float.json.native'" -e "OUTPUT='figures/cross.head.fast_float.json.native'" -e "TITLE='cross write/native (fast_float)'" src/benchmark-cross-head-json-write.gp
     - name: Commit
       run: |
         cd cxon/benchmarks
