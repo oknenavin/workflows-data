@@ -1,3 +1,22 @@
+# 2021-11-24T15:05:40+00:00 / Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+# cbor/node         Size   Read   Write
+blns.json           0.02 362.38 1305.38
+emoji.json          0.17  88.35  316.92
+apache_builds.json  0.08 145.34  533.32
+canada.json         1.01  86.48  282.68
+citm_catalog.json   0.33  63.74  272.38
+github_events.json  0.05 335.25  774.47
+gsoc-2018.json      2.86 966.89 1080.83
+instruments.json    0.08 139.12  341.45
+marine_ik.json      1.45 157.62  225.15
+mesh.json           0.40 265.49  268.46
+mesh.pretty.json    0.40 265.88  268.54
+numbers.json        0.09 227.71  325.50
+random.json         0.37 167.37  392.66
+twitter.json        0.38 243.35  635.39
+twitterescaped.json 0.38 244.39  635.34
+update-center.json  0.45 224.83  577.86
+<average>           0.53 249.01  514.77
 # 2021-11-24T14:43:27+00:00 / Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
 # cbor/node         Size   Read   Write
 blns.json           0.02 548.52 1860.38
