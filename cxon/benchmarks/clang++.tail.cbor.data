@@ -17,7 +17,7 @@ twitter.json        0.38  196.45  779.37
 twitterescaped.json 0.38  196.20  780.48
 update-center.json  0.45  187.21  720.90
 <average>           0.53  247.51  631.93
-# 2021-11-24T19:46:14+00:00 / clang++-Ubuntu clan12.0.0-3ubuntu1~20.04.4
+# 2021-11-24T19:46:14+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  439.45 1529.08
 emoji.json          0.17  107.72  394.05
@@ -36,7 +36,7 @@ twitter.json        0.38  195.28  775.90
 twitterescaped.json 0.38  194.72  775.59
 update-center.json  0.45  185.70  711.24
 <average>           0.53  238.77  638.40
-# 2021-11-24T19:23:48+00:00 / clang++-COMPILER_VERSION
+# 2021-11-24T19:23:48+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  438.60 1529.08
 emoji.json          0.17  107.94  394.15
@@ -55,7 +55,7 @@ twitter.json        0.38  195.65  772.17
 twitterescaped.json 0.38  196.09  773.57
 update-center.json  0.45  186.10  712.03
 <average>           0.53  240.92  616.69
-# 2021-11-24T18:51:56+00:00 / Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+# 2021-11-24T18:51:56+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 400.07 1361.25
 emoji.json          0.17  97.52  353.76
@@ -74,7 +74,7 @@ twitter.json        0.38 177.52  680.45
 twitterescaped.json 0.38 169.10  659.14
 update-center.json  0.45 164.33  634.31
 <average>           0.53 182.08  543.04
-# 2021-11-24T18:39:52+00:00 / Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+# 2021-11-24T18:39:52+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  434.32 1550.21
 emoji.json          0.17  107.07  394.80
@@ -93,7 +93,7 @@ twitter.json        0.38  194.15  775.90
 twitterescaped.json 0.38  194.22  777.47
 update-center.json  0.45  184.76  716.35
 <average>           0.53  241.25  626.47
-# 2021-11-24T16:36:10+00:00 / Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+# 2021-11-24T16:36:10+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 384.88 1361.17
 emoji.json          0.17  93.59  330.37
@@ -112,7 +112,7 @@ twitter.json        0.38 175.29  660.58
 twitterescaped.json 0.38 172.98  660.19
 update-center.json  0.45 163.08  620.28
 <average>           0.53 179.18  535.17
-# 2021-11-24T15:17:50+00:00 / Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+# 2021-11-24T15:17:50+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 430.15 1529.08
 emoji.json          0.17 105.80  394.72
@@ -131,7 +131,7 @@ twitter.json        0.38 191.04  778.42
 twitterescaped.json 0.38 191.56  780.01
 update-center.json  0.45 182.36  717.72
 <average>           0.53 200.25  622.96
-# 2021-11-24T15:05:40+00:00 / Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+# 2021-11-24T15:05:40+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 362.38 1305.38
 emoji.json          0.17  88.35  316.92
@@ -150,7 +150,7 @@ twitter.json        0.38 243.35  635.39
 twitterescaped.json 0.38 244.39  635.34
 update-center.json  0.45 224.83  577.86
 <average>           0.53 249.01  514.77
-# 2021-11-24T14:43:27+00:00 / Ubuntu clang version 12.0.0-3ubuntu1~20.04.4
+# 2021-11-24T14:43:27+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 548.52 1860.38
 emoji.json          0.17 128.54  423.06
@@ -169,7 +169,7 @@ twitter.json        0.38 240.23  864.25
 twitterescaped.json 0.38 241.02  870.72
 update-center.json  0.45 227.90  776.88
 <average>           0.53 254.75  673.48
-# 2021-11-24T01:02:20+00:00 / clang++12
+# 2021-11-24T01:02:20+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 441.20 1561.16
 emoji.json          0.17 107.71  405.38
@@ -188,7 +188,7 @@ twitter.json        0.38 199.67  732.83
 twitterescaped.json 0.38 185.58  683.91
 update-center.json  0.45 167.93  654.48
 <average>           0.53 204.37  613.11
-# 2021-11-24T00:30:19+00:00 / clang++12
+# 2021-11-24T00:30:19+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 377.71 1352.92
 emoji.json          0.17  92.07  330.56
@@ -207,7 +207,7 @@ twitter.json        0.38 169.10  657.74
 twitterescaped.json 0.38 168.54  657.29
 update-center.json  0.45 159.82  602.08
 <average>           0.53 176.59  531.12
-# 2021-11-24T00:21:47+00:00 / clang++12
+# 2021-11-24T00:21:47+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 392.32 1369.52
 emoji.json          0.17  96.59  353.97
@@ -226,7 +226,7 @@ twitter.json        0.38 178.21  695.26
 twitterescaped.json 0.38 176.80  700.46
 update-center.json  0.45 168.34  633.35
 <average>           0.53 184.55  558.77
-# 2021-11-24T00:16:32+00:00 / clang++12
+# 2021-11-24T00:16:32+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 377.70 1352.84
 emoji.json          0.17  92.34  330.96
@@ -245,7 +245,7 @@ twitter.json        0.38 176.14  662.38
 twitterescaped.json 0.38 171.79  661.99
 update-center.json  0.45 163.70  606.13
 <average>           0.53 178.31  533.91
-# 2021-11-24T00:09:49+00:00 / clang++12
+# 2021-11-24T00:09:49+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 395.10 1395.20
 emoji.json          0.17  98.06  356.61
@@ -264,7 +264,7 @@ twitter.json        0.38 178.83  671.32
 twitterescaped.json 0.38 169.60  662.63
 update-center.json  0.45 169.04  637.80
 <average>           0.53 185.89  559.32
-# 2021-11-24T00:01:29+00:00 / clang++12
+# 2021-11-24T00:01:29+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  435.18 1529.08
 emoji.json          0.17  107.32  391.53
@@ -283,7 +283,7 @@ twitter.json        0.38  195.56  772.94
 twitterescaped.json 0.38  195.43  773.24
 update-center.json  0.45  186.04  710.07
 <average>           0.53  241.05  622.80
-# 2021-11-23T23:29:30+00:00 / clang++12
+# 2021-11-23T23:29:30+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  440.33 1539.62
 emoji.json          0.17  108.28  395.56
@@ -302,7 +302,7 @@ twitter.json        0.38  196.84  779.52
 twitterescaped.json 0.38  196.90  780.55
 update-center.json  0.45  187.00  716.12
 <average>           0.53  243.03  627.17
-# 2021-11-23T23:02:53+00:00 / clang++12
+# 2021-11-23T23:02:53+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  437.73 1539.62
 emoji.json          0.17  107.64  394.62
@@ -321,7 +321,7 @@ twitter.json        0.38  195.37  778.26
 twitterescaped.json 0.38  195.35  779.68
 update-center.json  0.45  185.68  715.45
 <average>           0.53  241.90  627.21
-# 2021-11-23T22:47:22+00:00 / clang++12
+# 2021-11-23T22:47:22+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  434.32 1539.52
 emoji.json          0.17  106.81  393.40
@@ -340,7 +340,7 @@ twitter.json        0.38  193.14  776.06
 twitterescaped.json 0.38  193.43  774.49
 update-center.json  0.45  184.42  708.80
 <average>           0.53  239.72  621.93
-# 2021-11-23T22:30:23+00:00 / clang++12
+# 2021-11-23T22:30:23+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  433.49 1572.15
 emoji.json          0.17  107.40  388.95
@@ -359,7 +359,7 @@ twitter.json        0.38  194.15  773.56
 twitterescaped.json 0.38  193.97  773.41
 update-center.json  0.45  184.41  715.28
 <average>           0.53  245.38  628.01
-# 2021-11-23T22:19:57+00:00 / clang++12
+# 2021-11-23T22:19:57+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  436.02 1572.15
 emoji.json          0.17  107.64  394.14
@@ -378,7 +378,7 @@ twitter.json        0.38  194.62  777.23
 twitterescaped.json 0.38  194.65  779.04
 update-center.json  0.45  185.26  713.64
 <average>           0.53  246.24  630.43
-# 2021-11-23T22:09:13+00:00 / clang++12
+# 2021-11-23T22:09:13+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 459.35 1369.61
 emoji.json          0.17  92.62  341.47
@@ -397,7 +397,7 @@ twitter.json        0.38 235.56  641.11
 twitterescaped.json 0.38 237.28  650.67
 update-center.json  0.45 226.99  623.30
 <average>           0.53 251.03  533.89
-# 2021-11-23T21:57:42+00:00 / clang++12
+# 2021-11-23T21:57:42+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  436.87 1529.08
 emoji.json          0.17  107.20  393.21
@@ -416,7 +416,7 @@ twitter.json        0.38  195.16  767.22
 twitterescaped.json 0.38  195.12  767.83
 update-center.json  0.45  184.93  711.29
 <average>           0.53  240.36  622.31
-# 2021-11-23T21:40:51+00:00 / clang++12
+# 2021-11-23T21:40:51+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  439.03 1539.62
 emoji.json          0.17  108.16  394.52
@@ -435,7 +435,7 @@ twitter.json        0.38  196.35  778.89
 twitterescaped.json 0.38  196.36  780.15
 update-center.json  0.45  187.17  714.66
 <average>           0.53  242.57  627.12
-# 2021-11-23T21:34:05+00:00 / clang++12
+# 2021-11-23T21:34:05+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 432.64 1550.32
 emoji.json          0.17 107.47  404.73
@@ -454,7 +454,7 @@ twitter.json        0.38 197.38  780.30
 twitterescaped.json 0.38 203.74  781.25
 update-center.json  0.45 193.94  752.94
 <average>           0.53 208.61  625.74
-# 2021-11-23T20:36:55+00:00 / clang++12
+# 2021-11-23T20:36:55+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 484.25 1730.59
 emoji.json          0.17 119.92  443.27
@@ -473,7 +473,7 @@ twitter.json        0.38 217.49  868.13
 twitterescaped.json 0.38 216.66  868.91
 update-center.json  0.45 207.17  800.91
 <average>           0.53 226.14  695.11
-# 2021-11-23T18:17:51+00:00 / clang++12
+# 2021-11-23T18:17:51+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  432.64 1539.52
 emoji.json          0.17  106.79  393.30
@@ -492,7 +492,7 @@ twitter.json        0.38  193.36  774.96
 twitterescaped.json 0.38  193.77  773.87
 update-center.json  0.45  183.78  710.19
 <average>           0.53  239.56  621.12
-# 2021-11-23T17:57:31+00:00 / clang++12
+# 2021-11-23T17:57:31+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 408.87 1395.29
 emoji.json          0.17  91.89  347.43
@@ -511,7 +511,7 @@ twitter.json        0.38 173.90  673.36
 twitterescaped.json 0.38 173.03  676.92
 update-center.json  0.45 164.13  631.27
 <average>           0.53 182.87  544.33
-# 2021-11-23T17:30:00+00:00 / clang++12
+# 2021-11-23T17:30:00+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 402.96 1440.20
 emoji.json          0.17  97.19  356.89
@@ -530,7 +530,7 @@ twitter.json        0.38 179.49  694.14
 twitterescaped.json 0.38 179.29  695.02
 update-center.json  0.45 169.40  661.23
 <average>           0.53 189.00  564.83
-# 2021-11-23T17:18:38+00:00 / clang++12
+# 2021-11-23T17:18:38+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  436.02 1572.15
 emoji.json          0.17  107.72  394.71
@@ -549,7 +549,7 @@ twitter.json        0.38  194.24  772.01
 twitterescaped.json 0.38  194.42  770.77
 update-center.json  0.45  185.56  712.20
 <average>           0.53  245.65  628.77
-# 2021-11-23T17:00:32+00:00 / clang++12
+# 2021-11-23T17:00:32+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 377.72 1352.92
 emoji.json          0.17  92.06  330.77
@@ -568,7 +568,7 @@ twitter.json        0.38 168.73  658.09
 twitterescaped.json 0.38 168.99  659.11
 update-center.json  0.45 160.39  601.73
 <average>           0.53 176.99  530.12
-# 2021-11-23T16:51:52+00:00 / clang++12
+# 2021-11-23T16:51:52+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 375.81 1352.92
 emoji.json          0.17  91.98  330.77
@@ -587,7 +587,7 @@ twitter.json        0.38 168.86  659.00
 twitterescaped.json 0.38 169.11  660.81
 update-center.json  0.45 160.23  601.77
 <average>           0.53 176.58  531.05
-# 2021-11-23T16:29:41+00:00 / clang++12
+# 2021-11-23T16:29:41+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 406.63 1440.20
 emoji.json          0.17  98.35  357.74
@@ -606,7 +606,7 @@ twitter.json        0.38 192.86  700.48
 twitterescaped.json 0.38 190.89  701.89
 update-center.json  0.45 177.06  686.44
 <average>           0.53 193.60  568.98
-# 2021-11-23T16:14:22+00:00 / clang++12
+# 2021-11-23T16:14:22+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  437.73 1539.52
 emoji.json          0.17  107.68  393.77
@@ -625,7 +625,7 @@ twitter.json        0.38  195.01  772.94
 twitterescaped.json 0.38  195.37  773.56
 update-center.json  0.45  185.94  704.23
 <average>           0.53  241.43  622.90
-# 2021-11-23T15:32:45+00:00 / clang++12
+# 2021-11-23T15:32:45+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 410.36 1449.55
 emoji.json          0.17  97.87  357.43
@@ -644,7 +644,7 @@ twitter.json        0.38 181.60  686.09
 twitterescaped.json 0.38 176.65  676.90
 update-center.json  0.45 170.26  661.86
 <average>           0.53 187.63  557.14
-# 2021-11-23T15:15:42+00:00 / clang++12
+# 2021-11-23T15:15:42+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 397.92 1377.97
 emoji.json          0.17  96.12  338.33
@@ -663,7 +663,7 @@ twitter.json        0.38 171.22  659.11
 twitterescaped.json 0.38 179.65  659.28
 update-center.json  0.45 167.61  612.99
 <average>           0.53 183.24  539.68
-# 2021-11-23T15:08:33+00:00 / clang++12
+# 2021-11-23T15:08:33+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  436.03 1539.52
 emoji.json          0.17  107.23  394.05
@@ -682,7 +682,7 @@ twitter.json        0.38  194.40  772.70
 twitterescaped.json 0.38  194.59  774.34
 update-center.json  0.45  184.38  711.52
 <average>           0.53  239.96  622.50
-# 2021-11-23T14:52:03+00:00 / clang++12
+# 2021-11-23T14:52:03+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  440.32 1583.19
 emoji.json          0.17  108.21  394.62
@@ -701,7 +701,7 @@ twitter.json        0.38  196.72  781.90
 twitterescaped.json 0.38  196.76  783.02
 update-center.json  0.45  187.17  715.56
 <average>           0.53  247.34  631.56
-# 2021-11-23T14:29:38+00:00 / clang++12
+# 2021-11-23T14:29:38+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 555.35 1860.38
 emoji.json          0.17 129.42  429.89
@@ -720,7 +720,7 @@ twitter.json        0.38 243.69  868.65
 twitterescaped.json 0.38 243.73  858.45
 update-center.json  0.45 228.94  769.11
 <average>           0.53 258.22  683.63
-# 2021-11-23T14:22:30+00:00 / clang++12
+# 2021-11-23T14:22:30+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  436.88 1529.08
 emoji.json          0.17  107.43  394.15
@@ -739,7 +739,7 @@ twitter.json        0.38  195.56  776.84
 twitterescaped.json 0.38  195.97  777.55
 update-center.json  0.45  186.02  714.21
 <average>           0.53  240.15  620.16
-# 2021-11-23T14:15:03+00:00 / clang++12
+# 2021-11-23T14:15:03+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 418.06 1459.12
 emoji.json          0.17  97.38  355.98
@@ -758,7 +758,7 @@ twitter.json        0.38 259.56  692.86
 twitterescaped.json 0.38 256.22  691.80
 update-center.json  0.45 229.30  658.00
 <average>           0.53 240.38  559.19
-# 2021-11-23T13:17:12+00:00 / clang++12
+# 2021-11-23T13:17:12+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 452.83 1550.32
 emoji.json          0.17  99.37  384.51
@@ -777,7 +777,7 @@ twitter.json        0.38 194.05  721.28
 twitterescaped.json 0.38 193.39  740.61
 update-center.json  0.45 181.44  692.64
 <average>           0.53 198.55  597.70
-# 2021-11-23T11:34:58+00:00 / clang++12
+# 2021-11-23T11:34:58+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 410.38 1378.06
 emoji.json          0.17  92.36  340.55
@@ -796,7 +796,7 @@ twitter.json        0.38 235.96  653.76
 twitterescaped.json 0.38 233.51  647.81
 update-center.json  0.45 222.99  599.66
 <average>           0.53 244.18  535.62
-# 2021-11-22T23:55:00+00:00 / clang++12
+# 2021-11-22T23:55:00+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  439.46 1539.62
 emoji.json          0.17  107.61  395.18
@@ -815,7 +815,7 @@ twitter.json        0.38  196.97  780.31
 twitterescaped.json 0.38  196.67  782.22
 update-center.json  0.45  187.37  717.60
 <average>           0.53  243.14  627.64
-# 2021-11-22T23:06:58+00:00 / clang++12
+# 2021-11-22T23:06:58+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 377.74 1361.25
 emoji.json          0.17  92.15  349.86
@@ -834,7 +834,7 @@ twitter.json        0.38 174.70  687.76
 twitterescaped.json 0.38 173.32  656.55
 update-center.json  0.45 165.04  614.35
 <average>           0.53 181.14  542.82
-# 2021-11-22T21:40:59+00:00 / clang++12
+# 2021-11-22T21:40:59+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 377.72 1352.92
 emoji.json          0.17  92.10  330.77
@@ -853,7 +853,7 @@ twitter.json        0.38 251.20  662.06
 twitterescaped.json 0.38 250.54  655.79
 update-center.json  0.45 231.97  594.21
 <average>           0.53 249.82  532.34
-# 2021-11-22T20:44:05+00:00 / clang++12
+# 2021-11-22T20:44:05+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  437.74 1529.08
 emoji.json          0.17  107.55  395.00
@@ -872,7 +872,7 @@ twitter.json        0.38  195.63  778.42
 twitterescaped.json 0.38  195.38  776.37
 update-center.json  0.45  185.61  714.32
 <average>           0.53  240.35  621.37
-# 2021-11-22T18:38:44+00:00 / clang++12
+# 2021-11-22T18:38:44+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  437.74 1539.52
 emoji.json          0.17  107.75  394.62
@@ -891,7 +891,7 @@ twitter.json        0.38  195.31  775.12
 twitterescaped.json 0.38  195.65  777.47
 update-center.json  0.45  186.57  713.08
 <average>           0.53  242.55  624.04
-# 2021-11-21T22:26:12+00:00 / clang++12
+# 2021-11-21T22:26:12+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 402.24 1378.06
 emoji.json          0.17  86.37  335.94
@@ -910,7 +910,7 @@ twitter.json        0.38 166.83  648.58
 twitterescaped.json 0.38 165.21  643.04
 update-center.json  0.45 157.80  608.26
 <average>           0.53 173.80  525.87
-# 2021-11-21T21:08:35+00:00 / clang++12
+# 2021-11-21T21:08:35+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  438.59 1529.08
 emoji.json          0.17  107.91  395.85
@@ -929,7 +929,7 @@ twitter.json        0.38  196.30  782.86
 twitterescaped.json 0.38  196.23  782.06
 update-center.json  0.45  186.57  722.74
 <average>           0.53  241.20  624.11
-# 2021-11-21T17:21:52+00:00 / clang++12
+# 2021-11-21T17:21:52+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  439.46 1539.62
 emoji.json          0.17  108.30  396.23
@@ -948,7 +948,7 @@ twitter.json        0.38  196.93  780.16
 twitterescaped.json 0.38  197.03  781.43
 update-center.json  0.45  187.38  720.91
 <average>           0.53  243.30  626.73
-# 2021-11-21T00:09:42+00:00 / clang++12
+# 2021-11-21T00:09:42+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  436.02 1583.19
 emoji.json          0.17  107.54  396.61
@@ -967,7 +967,7 @@ twitter.json        0.38  193.90  784.30
 twitterescaped.json 0.38  194.31  785.10
 update-center.json  0.45  185.94  718.96
 <average>           0.53  245.85  631.26
-# 2021-11-20T23:20:54+00:00 / clang++12
+# 2021-11-20T23:20:54+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 430.14 1440.29
 emoji.json          0.17  92.27  375.74
@@ -986,7 +986,7 @@ twitter.json        0.38 183.77  729.47
 twitterescaped.json 0.38 186.06  722.88
 update-center.json  0.45 177.94  680.47
 <average>           0.53 189.73  569.92
-# 2021-11-20T19:21:50+00:00 / clang++12
+# 2021-11-20T19:21:50+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 452.83 1561.16
 emoji.json          0.17  99.39  335.43
@@ -1005,7 +1005,7 @@ twitter.json        0.38 254.85  774.66
 twitterescaped.json 0.38 245.45  800.99
 update-center.json  0.45 250.93  670.73
 <average>           0.53 247.94  620.42
-# 2021-11-19T22:40:38+00:00 / clang++12
+# 2021-11-19T22:40:38+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  435.17 1572.15
 emoji.json          0.17  107.92  396.70
@@ -1024,7 +1024,7 @@ twitter.json        0.38  195.97  777.62
 twitterescaped.json 0.38  195.95  776.21
 update-center.json  0.45  186.25  721.93
 <average>           0.53  246.72  631.45
-# 2021-11-19T14:49:01+00:00 / clang++12
+# 2021-11-19T14:49:01+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 374.57 1353.00
 emoji.json          0.17  98.61  329.50
@@ -1043,7 +1043,7 @@ twitter.json        0.38 168.71  658.07
 twitterescaped.json 0.38 168.89  658.36
 update-center.json  0.45 160.22  611.78
 <average>           0.53 176.66  533.27
-# 2021-11-19T13:03:49+00:00 / clang++12
+# 2021-11-19T13:03:49+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 552.59 1860.38
 emoji.json          0.17 127.13  425.77
@@ -1062,7 +1062,7 @@ twitter.json        0.38 240.47  886.99
 twitterescaped.json 0.38 241.10  881.90
 update-center.json  0.45 226.66  775.61
 <average>           0.53 255.81  684.07
-# 2021-11-18T23:52:40+00:00 / clang++12
+# 2021-11-18T23:52:40+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 380.94 1344.77
 emoji.json          0.17  92.38  332.17
@@ -1081,7 +1081,7 @@ twitter.json        0.38 168.96  652.17
 twitterescaped.json 0.38 169.31  651.62
 update-center.json  0.45 160.01  604.74
 <average>           0.53 177.47  530.57
-# 2021-11-18T23:40:58+00:00 / clang++12
+# 2021-11-18T23:40:58+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 430.15 1431.06
 emoji.json          0.17  88.11  353.31
@@ -1100,7 +1100,7 @@ twitter.json        0.38 163.92  637.17
 twitterescaped.json 0.38 165.72  651.16
 update-center.json  0.45 150.79  597.85
 <average>           0.53 177.14  538.65
-# 2021-11-18T23:20:21+00:00 / clang++12
+# 2021-11-18T23:20:21+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 405.91 1353.00
 emoji.json          0.17  88.14  339.36
@@ -1119,7 +1119,7 @@ twitter.json        0.38 175.60  676.33
 twitterescaped.json 0.38 171.85  620.61
 update-center.json  0.45 158.01  591.00
 <average>           0.53 173.53  519.33
-# 2021-11-18T22:15:27+00:00 / clang++12
+# 2021-11-18T22:15:27+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 491.73 1691.25
 emoji.json          0.17 120.62  446.15
@@ -1138,7 +1138,7 @@ twitter.json        0.38 221.17  864.81
 twitterescaped.json 0.38 221.82  865.39
 update-center.json  0.45 210.94  808.05
 <average>           0.53 229.38  695.76
-# 2021-11-18T18:59:41+00:00 / clang++12
+# 2021-11-18T18:59:41+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 409.60 1440.20
 emoji.json          0.17  94.66  356.96
@@ -1157,7 +1157,7 @@ twitter.json        0.38 250.11  695.14
 twitterescaped.json 0.38 247.53  693.51
 update-center.json  0.45 232.70  654.74
 <average>           0.53 237.06  560.62
-# 2021-11-18T17:02:15+00:00 / clang++12
+# 2021-11-18T17:02:15+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  436.02 1561.16
 emoji.json          0.17  107.22  396.90
@@ -1176,7 +1176,7 @@ twitter.json        0.38  194.38  772.78
 twitterescaped.json 0.38  194.59  769.37
 update-center.json  0.45  184.97  713.53
 <average>           0.53  239.95  625.68
-# 2021-11-17T21:34:48+00:00 / clang++12
+# 2021-11-17T21:34:48+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 552.57 1860.38
 emoji.json          0.17 130.07  442.67
@@ -1195,7 +1195,7 @@ twitter.json        0.38 241.39  888.50
 twitterescaped.json 0.38 240.81  887.68
 update-center.json  0.45 229.07  809.19
 <average>           0.53 257.22  702.38
-# 2021-11-15T22:06:37+00:00 / clang++12
+# 2021-11-15T22:06:37+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  446.47 1594.61
 emoji.json          0.17  108.28  395.56
@@ -1214,7 +1214,7 @@ twitter.json        0.38  197.39  775.66
 twitterescaped.json 0.38  198.19  779.04
 update-center.json  0.45  188.55  717.13
 <average>           0.53  248.90  631.28
-# 2021-11-14T22:30:09+00:00 / clang++12
+# 2021-11-14T22:30:09+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 375.20 1353.00
 emoji.json          0.17  89.50  323.71
@@ -1233,7 +1233,7 @@ twitter.json        0.38 243.35  642.60
 twitterescaped.json 0.38 243.58  646.61
 update-center.json  0.45 228.48  577.45
 <average>           0.53 251.39  525.24
-# 2021-11-14T19:05:02+00:00 / clang++12
+# 2021-11-14T19:05:02+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  436.02 1539.62
 emoji.json          0.17  107.27  393.02
@@ -1252,7 +1252,7 @@ twitter.json        0.38  195.68  777.93
 twitterescaped.json 0.38  195.40  776.99
 update-center.json  0.45  185.75  711.07
 <average>           0.53  240.95  625.07
-# 2021-11-12T22:33:57+00:00 / clang++12
+# 2021-11-12T22:33:57+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 368.99 1305.53
 emoji.json          0.17  73.73  293.18
@@ -1271,7 +1271,7 @@ twitter.json        0.38 179.99  564.85
 twitterescaped.json 0.38 173.32  558.72
 update-center.json  0.45 162.43  531.29
 <average>           0.53 183.09  481.79
-# 2021-11-12T21:45:35+00:00 / clang++12
+# 2021-11-12T21:45:35+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  442.94 1583.30
 emoji.json          0.17  108.07  395.18
@@ -1290,7 +1290,7 @@ twitter.json        0.38  197.26  779.99
 twitterescaped.json 0.38  196.86  780.95
 update-center.json  0.45  187.82  714.77
 <average>           0.53  248.38  631.02
-# 2021-11-11T23:07:03+00:00 / clang++12
+# 2021-11-11T23:07:03+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 447.37 1572.15
 emoji.json          0.17 107.19  407.77
@@ -1309,7 +1309,7 @@ twitter.json        0.38 199.44  795.74
 twitterescaped.json 0.38 199.99  719.91
 update-center.json  0.45 188.67  743.20
 <average>           0.53 208.55  619.32
-# 2021-11-11T22:57:04+00:00 / clang++12
+# 2021-11-11T22:57:04+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 444.69 1539.52
 emoji.json          0.17 107.00  406.87
@@ -1328,7 +1328,7 @@ twitter.json        0.38 198.85  701.12
 twitterescaped.json 0.38 190.78  784.93
 update-center.json  0.45 183.13  657.31
 <average>           0.53 203.24  608.97
-# 2021-11-11T22:29:17+00:00 / clang++12
+# 2021-11-11T22:29:17+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 400.07 1440.29
 emoji.json          0.17  95.21  358.13
@@ -1347,7 +1347,7 @@ twitter.json        0.38 177.68  699.84
 twitterescaped.json 0.38 178.09  698.06
 update-center.json  0.45 167.32  658.45
 <average>           0.53 187.95  565.38
-# 2021-11-11T21:51:44+00:00 / clang++12
+# 2021-11-11T21:51:44+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 488.50 1478.45
 emoji.json          0.17 105.47  405.08
@@ -1366,7 +1366,7 @@ twitter.json        0.38 204.75  867.06
 twitterescaped.json 0.38 199.81  858.24
 update-center.json  0.45 207.43  834.80
 <average>           0.53 212.48  657.74
-# 2021-11-11T21:20:27+00:00 / clang++12
+# 2021-11-11T21:20:27+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 414.94 1449.55
 emoji.json          0.17  94.96  369.14
@@ -1385,7 +1385,7 @@ twitter.json        0.38 183.76  735.61
 twitterescaped.json 0.38 187.76  717.14
 update-center.json  0.45 167.09  667.89
 <average>           0.53 190.24  572.11
-# 2021-11-11T16:27:58+00:00 / clang++12
+# 2021-11-11T16:27:58+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 372.70 1320.98
 emoji.json          0.17  88.95  336.76
@@ -1404,7 +1404,7 @@ twitter.json        0.38 231.30  668.15
 twitterescaped.json 0.38 233.26  663.70
 update-center.json  0.45 217.83  627.34
 <average>           0.53 219.29  529.01
-# 2021-11-11T09:52:38+00:00 / clang++12
+# 2021-11-11T09:52:38+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 382.24 1377.97
 emoji.json          0.17  91.87  330.70
@@ -1423,7 +1423,7 @@ twitter.json        0.38 168.42  649.09
 twitterescaped.json 0.38 168.28  647.66
 update-center.json  0.45 159.38  602.65
 <average>           0.53 176.41  532.90
-# 2021-11-10T21:08:06+00:00 / clang++12
+# 2021-11-10T21:08:06+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  434.33 1561.16
 emoji.json          0.17  106.78  394.33
@@ -1442,7 +1442,7 @@ twitter.json        0.38  194.25  773.40
 twitterescaped.json 0.38  194.45  775.90
 update-center.json  0.45  184.90  707.31
 <average>           0.53  241.05  625.36
-# 2021-11-10T18:13:13+00:00 / clang++12
+# 2021-11-10T18:13:13+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 393.72 1378.06
 emoji.json          0.17  87.57  343.88
@@ -1461,7 +1461,7 @@ twitter.json        0.38 159.40  638.17
 twitterescaped.json 0.38 169.87  665.42
 update-center.json  0.45 153.77  614.72
 <average>           0.53 174.76  533.74
-# 2021-11-10T15:43:13+00:00 / clang++12
+# 2021-11-10T15:43:13+00:00 / clang++-12.0.0-3
 # cbor/node         Size    Read   Write
 blns.json           0.02  489.57 1730.59
 emoji.json          0.17  116.51  469.10
@@ -1480,7 +1480,7 @@ twitter.json        0.38  287.59  889.96
 twitterescaped.json 0.38  281.55  882.09
 update-center.json  0.45  287.20  844.67
 <average>           0.53  289.76  710.95
-# 2021-11-10T00:00:01+00:00 / clang++12
+# 2021-11-10T00:00:01+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 395.11 1449.65
 emoji.json          0.17  93.94  362.13
@@ -1499,7 +1499,7 @@ twitter.json        0.38 243.69  700.27
 twitterescaped.json 0.38 242.57  698.43
 update-center.json  0.45 224.42  661.13
 <average>           0.53 232.06  562.74
-# 2021-11-09T22:54:03+00:00 / clang++12
+# 2021-11-09T22:54:03+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 462.21 1617.72
 emoji.json          0.17 104.25  417.48
@@ -1518,7 +1518,7 @@ twitter.json        0.38 179.23  786.23
 twitterescaped.json 0.38 190.77  787.28
 update-center.json  0.45 181.80  704.57
 <average>           0.53 200.57  631.28
-# 2021-11-09T22:42:09+00:00 / clang++12
+# 2021-11-09T22:42:09+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 401.50 1459.03
 emoji.json          0.17  92.74  356.58
@@ -1537,7 +1537,7 @@ twitter.json        0.38 172.33  688.17
 twitterescaped.json 0.38 170.36  691.27
 update-center.json  0.45 163.09  656.92
 <average>           0.53 184.18  560.12
-# 2021-11-09T22:25:39+00:00 / clang++12
+# 2021-11-09T22:25:39+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 411.13 1449.55
 emoji.json          0.17  91.97  367.34
@@ -1556,7 +1556,7 @@ twitter.json        0.38 163.53  665.54
 twitterescaped.json 0.38 163.22  664.16
 update-center.json  0.45 159.56  604.81
 <average>           0.53 179.47  547.50
-# 2021-11-09T22:15:41+00:00 / clang++12
+# 2021-11-09T22:15:41+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 374.57 1344.85
 emoji.json          0.17  83.27  339.78
@@ -1575,7 +1575,7 @@ twitter.json        0.38 214.29  633.55
 twitterescaped.json 0.38 216.30  641.00
 update-center.json  0.45 200.92  591.69
 <average>           0.53 216.54  516.33
-# 2021-11-09T21:55:17+00:00 / clang++12
+# 2021-11-09T21:55:17+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 372.67 1449.55
 emoji.json          0.17  91.37  357.89
@@ -1594,7 +1594,7 @@ twitter.json        0.38 168.14  681.26
 twitterescaped.json 0.38 168.34  678.19
 update-center.json  0.45 158.70  636.01
 <average>           0.53 178.67  560.32
-# 2021-11-09T19:35:52+00:00 / clang++12
+# 2021-11-09T19:35:52+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 384.21 1440.20
 emoji.json          0.17  92.76  358.50
@@ -1613,7 +1613,7 @@ twitter.json        0.38 168.84  675.08
 twitterescaped.json 0.38 171.35  677.10
 update-center.json  0.45 164.35  638.00
 <average>           0.53 179.96  552.29
-# 2021-11-09T18:16:51+00:00 / clang++12
+# 2021-11-09T18:16:51+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 409.62 1459.12
 emoji.json          0.17  96.38  375.70
@@ -1632,7 +1632,7 @@ twitter.json        0.38 238.94  706.79
 twitterescaped.json 0.38 239.29  709.34
 update-center.json  0.45 223.90  667.16
 <average>           0.53 234.75  577.07
-# 2021-11-09T17:40:44+00:00 / clang++12
+# 2021-11-09T17:40:44+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 382.93 1361.25
 emoji.json          0.17  87.52  343.89
@@ -1651,7 +1651,7 @@ twitter.json        0.38 162.05  649.34
 twitterescaped.json 0.38 165.01  648.36
 update-center.json  0.45 156.65  608.22
 <average>           0.53 172.91  527.76
-# 2021-11-09T17:08:50+00:00 / clang++12
+# 2021-11-09T17:08:50+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 436.87 1594.61
 emoji.json          0.17  97.29  402.61
@@ -1670,7 +1670,7 @@ twitter.json        0.38 179.54  758.58
 twitterescaped.json 0.38 185.42  746.50
 update-center.json  0.45 177.64  731.71
 <average>           0.53 195.24  615.91
-# 2021-11-08T23:31:25+00:00 / clang++12
+# 2021-11-08T23:31:25+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 405.89 1449.55
 emoji.json          0.17  96.86  357.59
@@ -1689,7 +1689,7 @@ twitter.json        0.38 179.32  698.82
 twitterescaped.json 0.38 178.95  694.90
 update-center.json  0.45 170.30  658.74
 <average>           0.53 189.44  565.73
-# 2021-11-08T22:26:34+00:00 / clang++12
+# 2021-11-08T22:26:34+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 426.03 1518.57
 emoji.json          0.17  92.51  354.06
@@ -1708,7 +1708,7 @@ twitter.json        0.38 170.31  670.48
 twitterescaped.json 0.38 169.26  667.27
 update-center.json  0.45 169.50  599.90
 <average>           0.53 184.18  558.29
-# 2021-11-06T20:46:00+00:00 / clang++12
+# 2021-11-06T20:46:00+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 430.13 1468.62
 emoji.json          0.17 101.17  389.07
@@ -1746,7 +1746,7 @@ twitter.json        0.38 192.86  761.27
 twitterescaped.json 0.38 193.17  758.71
 update-center.json  0.45 181.08  659.40
 <average>           0.95 201.55  606.02
-# 2021-11-06T20:32:12+00:00 / clang++12
+# 2021-11-06T20:32:12+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 372.68 1386.62
 emoji.json          0.17  90.53  330.25
@@ -1784,7 +1784,7 @@ twitter.json        0.38 168.37  657.67
 twitterescaped.json 0.38 169.67  656.32
 update-center.json  0.45 159.47  599.96
 <average>           0.95 176.26  535.56
-# 2021-11-06T17:30:20+00:00 / clang++12
+# 2021-11-06T17:30:20+00:00 / clang++-12.0.0-3
 # cbor/node         Size   Read   Write
 blns.json           0.02 373.92 1377.97
 emoji.json          0.17  90.88  330.57
