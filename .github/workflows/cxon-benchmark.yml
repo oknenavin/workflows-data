@@ -39,9 +39,9 @@ jobs:
             gnuplot -e "INPUT='$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='average read / $cxx / native (default)'" src/benchmark-average-json-read.gp
             gnuplot -e "INPUT='$cxx.tail.fast_float.json.node'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node'" -e "TITLE='average read / $cxx / node (fast_float)'" src/benchmark-average-json-read.gp
             gnuplot -e "INPUT='$cxx.tail.fast_float.json.native'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native'" -e "TITLE='average read / $cxx / native (fast_float)'" src/benchmark-average-json-read.gp
-            gnuplot -e "INPUT='$cxx.tail.default.json.node'" -e "OUTPUT='figures/$cxx.tail.default.json.node'" -e "TITLE='average write / $cxx / node (default)'" src/benchmark-tail-average-write.gp
-            gnuplot -e "INPUT='$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='average write / $cxx / native (default)'" src/benchmark-tail-average-write.gp
-            gnuplot -e "INPUT='$cxx.tail.fast_float.json.node'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node'" -e "TITLE='average write / $cxx / node (fast_float)'" src/benchmark-tail-average-write.gp
+            gnuplot -e "INPUT='$cxx.tail.default.json.node'" -e "OUTPUT='figures/$cxx.tail.default.json.node'" -e "TITLE='average write / $cxx / node (default)'" src/benchmark-average-json-write.gp
+            gnuplot -e "INPUT='$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='average write / $cxx / native (default)'" src/benchmark-average-json-write.gp
+            gnuplot -e "INPUT='$cxx.tail.fast_float.json.node'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node'" -e "TITLE='average write / $cxx / node (fast_float)'" src/benchmark-average-json-write.gp
             gnuplot -e "INPUT='$cxx.tail.fast_float.json.native'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native'" -e "TITLE='average write / $cxx / native (fast_float)'" src/benchmark-average-json-write.gp
         done
     - name: Cross
