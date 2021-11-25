@@ -7,7 +7,7 @@ set xlabel 'Time'
 set format x ''
 set grid ytics
 
-set output OUTPUT.'-average.read.svg'
+set output OUTPUT.'-read.average.svg'
 plot INPUT.'.data'   every 17:1:16 using 3 smooth acsplines with line dt 1 lw 2 lc rgb '#FF8C00' title 'cxon', \
                 ''   every 17:1:16 using 5 smooth acsplines with line dt 1 lw 2 lc rgb '#32CD32' title 'boost/json', \
                 ''   every 17:1:16 using 7 smooth acsplines with line dt 1 lw 2 lc rgb '#DC143C' title 'rapidjson', \
