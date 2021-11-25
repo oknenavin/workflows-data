@@ -4,8 +4,8 @@ set style data histograms
 set boxwidth 0.70
 set style fill solid 1.00
 
-set title TITLE
-set ylabel 'Throughput (MB/s)'
+set title TITLE font ',19'
+set ylabel 'Throughput (MB/s)' font ',19'
 
 set xtics nomirror rotate by -30
 set grid ytics
