@@ -43,6 +43,8 @@ jobs:
             gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='average write / $cxx / native (default)'" src/benchmark-average-json-write.gp
             gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node'" -e "TITLE='average write / $cxx / node (fast_float)'" src/benchmark-average-json-write.gp
             gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native'" -e "TITLE='average write / $cxx / native (fast_float)'" src/benchmark-average-json-write.gp
+            # space
+            gnuplot -e "INPUT='data/space/$cxx.head.default'" -e "OUTPUT='figures/$cxx.head.default'" src/benchmark-space-head-json.gp
         done
     - name: Cross
       run: |

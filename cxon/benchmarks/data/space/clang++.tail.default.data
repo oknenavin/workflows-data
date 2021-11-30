@@ -1,18 +1,18 @@
 # 2021-11-30T20:58:04+00:00 / clang++-12.0.0-3 -std=c++20 -O2 -s -DNDEBUG
 #                     size  time
-cxon (native #0)     14696  1.33
-cxon (native #1)     18816  1.59
-cxon (native #2)     27064  1.66
-cxon (node)          27056  2.02
-boost/json          182872  5.03
-rapidjson            26832  1.27
-nlohmann.json       100864  4.70
+"cxon (native #0)"   14696  1.33
+"cxon (native #1)"   18816  1.59
+"cxon (native #2)"   27064  1.66
+"cxon (node)"        27056  2.02
+"boost/json"        182872  5.03
+"rapidjson"          26832  1.27
+"nlohmann.json"     100864  4.70
 # 2021-11-30T20:44:57+00:00 / clang++-12.0.0-3 -std=c++20 -O2 -s -DNDEBUG
 #                     size  time
-cxon (native #0)     14696  1.48
-cxon (native #1)     18816  1.83
-cxon (native #2)     27064  1.84
-cxon (node)          27056  2.19
-boost/json          182872  5.38
-rapidjson            26832  1.37
-nlohmann.json       100864  5.27
+"cxon (native #0)"   14696  1.48
+"cxon (native #1)"   18816  1.83
+"cxon (native #2)"   27064  1.84
+"cxon (node)"        27056  2.19
+"boost/json"        182872  5.38
+"rapidjson"          26832  1.37
+"nlohmann.json"     100864  5.27
