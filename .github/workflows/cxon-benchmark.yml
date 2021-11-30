@@ -46,6 +46,10 @@ jobs:
             # space
             gnuplot -e "INPUT='data/space/$cxx.head.default'" -e "OUTPUT='figures/$cxx.head.default'" src/benchmark-space-head-json.gp
         done
+        for cxx in g++ clang++; do
+            # space
+            gnuplot -e "INPUT='data/space/$cxx.head.default'" -e "OUTPUT='figures/$cxx.head.default'" src/benchmark-space-head-json.gp
+        done
     - name: Cross
       run: |
         cd cxon/benchmarks
