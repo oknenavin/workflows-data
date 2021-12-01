@@ -20,10 +20,7 @@ set y2range [0:]
 set xtics nomirror rotate by -30
 
 set border 11
-
-set key off auto columnheader
-#set key inside right top vertical 
-#set key autotitle columnheader 
+set key off auto
 
 # dx = 1 / (2 * (c + gap))
 dx = 1 / 16.0
