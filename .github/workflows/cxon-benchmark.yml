@@ -17,14 +17,14 @@ jobs:
         cd cxon/benchmarks
         for cxx in g++ clang++ msvc++ xcode; do
             # benchmarks
-            gnuplot -e "INPUT='data/time/$cxx.head.default.json.node'" -e "OUTPUT='figures/$cxx.head.default.json.node'" -e "TITLE='read / $cxx / node (default)'" src/benchmark-head-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.default.json.native'" -e "OUTPUT='figures/$cxx.head.default.json.native'" -e "TITLE='read / $cxx / native (default)'" src/benchmark-head-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.node'" -e "OUTPUT='figures/$cxx.head.fast_float.json.node'" -e "TITLE='read / $cxx / node (fast_float)'" src/benchmark-head-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.native'" -e "OUTPUT='figures/$cxx.head.fast_float.json.native'" -e "TITLE='read / $cxx / native (fast_float)'" src/benchmark-head-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.default.json.node'" -e "OUTPUT='figures/$cxx.head.default.json.node'" -e "TITLE='write / $cxx / node (default)'" src/benchmark-head-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.default.json.native'" -e "OUTPUT='figures/$cxx.head.default.json.native'" -e "TITLE='write / $cxx / native (default)'" src/benchmark-head-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.node'" -e "OUTPUT='figures/$cxx.head.fast_float.json.node'" -e "TITLE='write / $cxx / node (fast_float)'" src/benchmark-head-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.native'" -e "OUTPUT='figures/$cxx.head.fast_float.json.native'" -e "TITLE='write / $cxx / native (fast_float)'" src/benchmark-head-json-write.gp
+            gnuplot -e "INPUT='data/time/$cxx.head.default.json.node'" -e "OUTPUT='figures/$cxx.head.default.json.node'" src/benchmark-head-json-read.gp
+            gnuplot -e "INPUT='data/time/$cxx.head.default.json.native'" -e "OUTPUT='figures/$cxx.head.default.json.native'" src/benchmark-head-json-read.gp
+            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.node'" -e "OUTPUT='figures/$cxx.head.fast_float.json.node'" src/benchmark-head-json-read.gp
+            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.native'" -e "OUTPUT='figures/$cxx.head.fast_float.json.native'" src/benchmark-head-json-read.gp
+            gnuplot -e "INPUT='data/time/$cxx.head.default.json.node'" -e "OUTPUT='figures/$cxx.head.default.json.node'" src/benchmark-head-json-write.gp
+            gnuplot -e "INPUT='data/time/$cxx.head.default.json.native'" -e "OUTPUT='figures/$cxx.head.default.json.native'" src/benchmark-head-json-write.gp
+            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.node'" -e "OUTPUT='figures/$cxx.head.fast_float.json.node'" src/benchmark-head-json-write.gp
+            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.native'" -e "OUTPUT='figures/$cxx.head.fast_float.json.native'" src/benchmark-head-json-write.gp
             # history
             gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node'" -e "OUTPUT='figures/$cxx.tail.default.json.node'" -e "TITLE='read history / $cxx / node (default)'" src/benchmark-tail-json-read.gp
             gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='read history / $cxx / native (default)'" src/benchmark-tail-json-read.gp

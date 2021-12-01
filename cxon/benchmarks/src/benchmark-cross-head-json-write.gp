@@ -2,7 +2,7 @@ set terminal svg dashed noenhanced size 900,450 font ',14' background rgb 'white
 
 set style data histograms
 set boxwidth 0.70
-set style fill solid 1.00
+set style fill solid 0.7
 
 set title TITLE font ',19'
 set ylabel 'Throughput (MB/s)' font ',19'
