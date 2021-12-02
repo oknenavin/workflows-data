@@ -46,8 +46,8 @@ jobs:
         done
         for cxx in g++ clang++; do
             # space
-            gnuplot -e "INPUT='data/space/$cxx.head.default'" -e "OUTPUT='figures/$cxx.head.default'" src/benchmark-space-head.gp
-            gnuplot -e "INPUT='data/space/$cxx.tail.default'" -e "OUTPUT='figures/$cxx.tail.default'" src/benchmark-space-tail.gp
+            gnuplot -e "INPUT='data/space/$cxx.head.default.json'" -e "OUTPUT='figures/$cxx.head.default.json'" src/benchmark-space-head.gp
+            gnuplot -e "INPUT='data/space/$cxx.tail.default.json'" -e "OUTPUT='figures/$cxx.tail.default.json'" src/benchmark-space-tail.gp
         done
     - name: Cross
       run: |
