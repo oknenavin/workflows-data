@@ -4,22 +4,19 @@
 
 ##### Contents
   - Performance
-    - Individual compiler figures
-      - [`g++`](benchmarks/g++.md)
-      - [`clang++`](benchmarks/clang++.md)
-      - [`msvc++`](benchmarks/msvc++.md)
-      - [`xcode`](benchmarks/xcode.md)
+    - [Per-library figures](benchmarks/compiler.md)
+    - [Average per-library figures](benchmarks/average.md)
     - [Cross-compiler figures](benchmarks/cross.md)
-    - Average per-library figures
-      - [`g++`](benchmarks/g++.average.md)
-      - [`clang++`](benchmarks/clang++.average.md)
-      - [`msvc++`](benchmarks/msvc++.average.md)
-      - [`xcode`](benchmarks/xcode.average.md)
   - [Binary size and compilation times](#binary-size-and-compilation-times)
     - [Code](#code)
 --------------------------------------------------------------------------------
 
 ##### Binary size and compilation times
+
+This benchmark runs on [`GitHub`](https://github.com/oknenavin/cxon/actions/workflows/benchmarks.yml)
+against [this code](#code).  
+The `cxon / native` benchmarks demonstrate that
+[_you don't pay for what you don't use_](https://en.cppreference.com/mwiki/index.php?title=cpp/language/Zero-overhead_principle&oldid=118760).
 
 ###### `g++`
   ![g++](benchmarks/figures/g++.head.default.json-space.svg)
@@ -35,9 +32,13 @@
 
 ###### Code
 
+The real code can be found in `CXON` repository under `test/src/json/space`.
+
 ###### `cxon (native #0)`
 
 ``` c++
+// JSON array as a vector of integers
+
 #include "cxon/json.hxx"
 #include "cxon/lib/std/vector.hxx"
 
@@ -51,6 +52,8 @@ int main() {
 ###### `cxon (native #1)`
 
 ``` c++
+// JSON object as a struct
+
 #include "cxon/json.hxx"
 #include "cxon/lib/std/vector.hxx"
 #include "cxon/lib/std/list.hxx"
@@ -78,6 +81,8 @@ int main() {
 ###### `cxon (native #2)`
 
 ``` c++
+// JSON object as a map
+
 #include "cxon/json.hxx"
 #include "cxon/lib/std/vector.hxx"
 #include "cxon/lib/std/string.hxx"
@@ -93,6 +98,8 @@ int main() {
 ###### `cxon (node)`
 
 ``` c++
+// JSON object as a polymorphic type
+
 #include "cxon/json.hxx"
 #include "cxon/lib/node.hxx"
 

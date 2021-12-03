@@ -2,4 +2,5 @@
 
 --------------------------------------------------------------------------------
 
-- [`cxon/benchmarks` - benchmark data from `cxon`'s time workflow](cxon/README.md)
+- [`cxon/benchmarks`](cxon/README.md) - benchmark data from `CXON`'s
+  [`benchmarks`](https://github.com/oknenavin/cxon/actions/workflows/benchmarks.yml) work-flow
