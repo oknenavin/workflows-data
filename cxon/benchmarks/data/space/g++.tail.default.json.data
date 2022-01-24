@@ -1,3 +1,39 @@
+# 2022-01-22T03:47:18+00:00 / g++-11.1.0 -std=c++20 -O2 -s -DNDEBUG
+#                     size  time
+"cxon (native #0)"   14648  0.97
+"cxon (native #1)"   22840  1.14
+"cxon (native #2)"   26936  1.27
+"cxon (node)"        43328  1.68
+"boost/json"        186712  4.65
+"rapidjson"          30944  0.97
+"nlohmann.json"      96560  3.64
+# 2022-01-15T03:52:29+00:00 / g++-11.1.0 -std=c++20 -O2 -s -DNDEBUG
+#                     size  time
+"cxon (native #0)"   14648  0.94
+"cxon (native #1)"   22840  1.13
+"cxon (native #2)"   26936  1.27
+"cxon (node)"        43328  1.67
+"boost/json"        186712  4.65
+"rapidjson"          30944  0.98
+"nlohmann.json"      96560  3.63
+# 2022-01-08T03:51:58+00:00 / g++-11.1.0 -std=c++20 -O2 -s -DNDEBUG
+#                     size  time
+"cxon (native #0)"   14648  0.90
+"cxon (native #1)"   22840  1.11
+"cxon (native #2)"   26936  1.24
+"cxon (node)"        43328  1.64
+"boost/json"        186712  4.67
+"rapidjson"          30944  0.95
+"nlohmann.json"      96560  3.55
+# 2022-01-01T03:52:20+00:00 / g++-11.1.0 -std=c++20 -O2 -s -DNDEBUG
+#                     size  time
+"cxon (native #0)"   14648  1.11
+"cxon (native #1)"   22840  1.37
+"cxon (native #2)"   26936  1.55
+"cxon (node)"        43328  2.02
+"boost/json"        186712  5.64
+"rapidjson"          30944  1.17
+"nlohmann.json"      96560  4.45
 # 2021-12-28T22:09:10+00:00 / g++-11.1.0 -std=c++20 -O2 -s -DNDEBUG
 #                     size  time
 "cxon (native #0)"   14648  0.88
