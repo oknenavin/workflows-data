@@ -4,15 +4,15 @@ set style data histograms
 set boxwidth 0.70
 set style fill solid 0.7
 
-TITLE = sprintf('"`head -n1 %s | sed -E "s/.*\/ (.*)/\1/"`"', INPUT.'.data')
-set title @TITLE font ',19'
+TITLE = sprintf('"`head -n1 %s | sed -E "s/# (.+)T.+ \/ (.+)/\2 \/ \1/"`"', INPUT.'.data')
+set title @TITLE font ',17'
 
-set ylabel 'Size (B)' font ',19'
+set ylabel 'Size (B)' font ',17'
 set ytics nomirror
 set yrange [0:]
 #set grid ytics
 
-set y2label 'Compilation time (s)' font ',19'
+set y2label 'Compilation time (s)' font ',17'
 set y2tics
 set y2range [0:]
 #set grid y2tics

@@ -1,8 +1,8 @@
 set terminal svg dashed noenhanced size 1200,600 font ',14' background rgb 'white'
 
-set title TITLE font ',19'
-set ylabel 'Throughput (MB/s)' font ',19'
-set xlabel 'Time' font ',19'
+set title TITLE font ',17'
+set ylabel 'Throughput (MB/s)' font ',17'
+set xlabel 'Time' font ',17'
 
 set format x ''
 set grid ytics

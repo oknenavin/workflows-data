@@ -1,16 +1,16 @@
 set terminal svg dashed noenhanced size 900,450 font ',14' background rgb 'white'
 
 TITLE = sprintf('"`head -n1 %s | sed -E "s/.*\/ (.*)/\1/"`"', INPUT.'.data')
-set title @TITLE font ',19'
+set title @TITLE font ',17'
 
 set border 11
 set xtics nomirror
 
-set ylabel 'Size (B)' font ',19'
+set ylabel 'Size (B)' font ',17'
 set ytics nomirror
 set yrange [0:]
 
-set y2label 'Compilation time (s)' font ',19'
+set y2label 'Compilation time (s)' font ',17'
 set y2tics
 set y2range [0:]
 

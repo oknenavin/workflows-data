@@ -4,10 +4,10 @@ set style data histograms
 set boxwidth 0.70
 set style fill solid 0.7
 
-TITLE = sprintf('"read / `head -n1 %s | sed -E "s/[^/]*\/ (.*)/\1/"`"', INPUT.'.data')
-set title @TITLE font ',19'
+TITLE = sprintf('"read / `head -n1 %s | sed -E "s/# (.+)T.+ \/ (.+) \/ (.+)/\3 \/ \2 \/ \1/"`"', INPUT.'.data')
+set title @TITLE font ',17'
 
-set ylabel 'Throughput (MB/s)' font ',19'
+set ylabel 'Throughput (MB/s)' font ',17'
 set xtics nomirror rotate by -30
 set grid ytics
 
