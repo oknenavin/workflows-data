@@ -1,3 +1,22 @@
+# 2022-03-07T22:46:20+00:00 / g++-11.1.0 (x86_64 GNU/Linux)
+# cbor/node         Size    Read   Write
+blns.json           0.02  454.68 1539.52
+emoji.json          0.17  112.42  356.75
+apache_builds.json  0.08  180.70  604.34
+canada.json         1.01  105.87  236.44
+citm_catalog.json   0.33   80.95  291.37
+github_events.json  0.05  463.80  871.35
+gsoc-2018.json      2.86 1280.34 1793.89
+instruments.json    0.08  190.22  372.87
+marine_ik.json      1.45  202.15  207.62
+mesh.json           0.40  334.06  239.34
+mesh.pretty.json    0.40  332.68  239.43
+numbers.json        0.09  746.13  274.61
+random.json         0.37  221.06  440.88
+twitter.json        0.38  352.01  704.74
+twitterescaped.json 0.38  352.59  704.48
+update-center.json  0.45  318.06  649.98
+<average>           0.53  357.98  595.47
 # 2022-03-07T22:34:13+00:00 / g++-11.1.0 (x86_64 GNU/Linux)
 # cbor/node         Size    Read   Write
 blns.json           0.02  556.72 1744.11
