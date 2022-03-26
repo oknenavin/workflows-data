@@ -1,3 +1,22 @@
+# 2022-03-26T03:49:50+00:00 / g++-11.1.0 (x86_64 GNU/Linux)
+# cbor/node         Size    Read   Write
+blns.json           0.02  452.82 1459.12
+emoji.json          0.17  113.57  351.95
+apache_builds.json  0.08  181.09  588.41
+canada.json         1.01  103.03  230.11
+citm_catalog.json   0.33   81.32  281.63
+github_events.json  0.05  458.32  853.79
+gsoc-2018.json      2.86 1273.75 1813.88
+instruments.json    0.08  188.17  361.45
+marine_ik.json      1.45  196.16  200.05
+mesh.json           0.40  317.83  233.40
+mesh.pretty.json    0.40  316.43  233.41
+numbers.json        0.09  644.94  268.76
+random.json         0.37  216.02  427.18
+twitter.json        0.38  348.04  678.11
+twitterescaped.json 0.38  348.93  677.51
+update-center.json  0.45  317.80  639.54
+<average>           0.53  347.39  581.14
 # 2022-03-24T23:18:01+00:00 / g++-11.1.0 (x86_64 GNU/Linux)
 # cbor/node         Size    Read   Write
 blns.json           0.02  480.09 1508.31
@@ -112,6 +131,25 @@ twitter.json        0.38 269.79  581.04
 twitterescaped.json 0.38 269.11  579.59
 update-center.json  0.45 250.60  549.23
 <average>           0.53 254.93  467.29
+# 2022-03-19T03:47:14+00:00 / g++-11.1.0 (x86_64 GNU/Linux)
+# cbor/node         Size   Read   Write
+blns.json           0.02 446.49 1440.29
+emoji.json          0.17 112.10  351.28
+apache_builds.json  0.08 178.28  588.41
+canada.json         1.01 102.01  230.62
+citm_catalog.json   0.33  80.14  280.53
+github_events.json  0.05 267.80  849.17
+gsoc-2018.json      2.86 672.32 1166.32
+instruments.json    0.08 110.86  360.98
+marine_ik.json      1.45 100.33  202.80
+mesh.json           0.40 137.80  232.80
+mesh.pretty.json    0.40 137.74  232.63
+numbers.json        0.09 258.32  268.42
+random.json         0.37 129.77  426.61
+twitter.json        0.38 212.79  684.39
+twitterescaped.json 0.38 212.30  684.03
+update-center.json  0.45 200.90  636.80
+<average>           0.53 210.00  539.76
 # 2022-03-15T21:47:40+00:00 / g++-11.1.0 (x86_64 GNU/Linux)
 # cbor/node         Size   Read   Write
 blns.json           0.02 397.23 1254.19
