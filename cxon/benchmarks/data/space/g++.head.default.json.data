@@ -1,9 +1,9 @@
-# 2022-12-10T03:47:50+00:00 / g++-11.3.0 -std=c++20 -O2 -s -DNDEBUG (x86_64 GNU/Linux)
+# 2022-12-16T16:55:46+00:00 / g++-12 -std=c++20 -O2 -s -DNDEBUG (x86_64 GNU/Linux)
 #                     size  time
-"cxon (native #0)"   14648  0.96
-"cxon (native #1)"   18744  1.14
-"cxon (native #2)"   31032  1.31
-"cxon (node)"        47424  1.86
-"boost/json"        186712  4.81
-"rapidjson"          26848  0.99
-"nlohmann.json"      96560  3.80
+"cxon (native #0)"   14648  1.02
+"cxon (native #1)"   18744  1.27
+"cxon (native #2)"   26936  1.43
+"cxon (node)"        39232  1.94
+"boost/json"        186712  5.34
+"rapidjson"          26848  1.11
+"nlohmann.json"      96560  4.25
