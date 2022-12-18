@@ -15,6 +15,7 @@ jobs:
     - name: Generate
       run: |
         cd cxon/benchmarks
+        chmod +x src/plot-all.sh
         src/plot-all.sh
     - name: Commit
       run: |
