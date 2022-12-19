@@ -13,14 +13,14 @@ for cxx in g++ clang++ msvc++ xcode; do
         gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.node-$set'" -e "OUTPUT='figures/$cxx.head.fast_float.json.node-$set'" src/benchmark-head-json-write.gp
         gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.native-$set'" -e "OUTPUT='figures/$cxx.head.fast_float.json.native-$set'" src/benchmark-head-json-write.gp
         # history
-        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='read history / $cxx / node (default)'" src/benchmark-tail-json-read.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='read history / $cxx / native (default)'" src/benchmark-tail-json-read.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node-$set'" -e "TITLE='read history / $cxx / node (fast_float)'" src/benchmark-tail-json-read.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native-$set'" -e "TITLE='read history / $cxx / native (fast_float)'" src/benchmark-tail-json-read.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='write history / $cxx / node (default)'" src/benchmark-tail-json-write.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='write history / $cxx / native (default)'" src/benchmark-tail-json-write.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node-$set'" -e "TITLE='write history / $cxx / node (fast_float)'" src/benchmark-tail-json-write.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native-$set'" -e "TITLE='write history / $cxx / native (fast_float)'" src/benchmark-tail-json-write.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='read history / $cxx / node (default)'" src/benchmark-tail-json-read.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='read history / $cxx / native (default)'" src/benchmark-tail-json-read.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node-$set'" -e "TITLE='read history / $cxx / node (fast_float)'" src/benchmark-tail-json-read.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native-$set'" -e "TITLE='read history / $cxx / native (fast_float)'" src/benchmark-tail-json-read.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='write history / $cxx / node (default)'" src/benchmark-tail-json-write.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='write history / $cxx / native (default)'" src/benchmark-tail-json-write.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node-$set'" -e "TITLE='write history / $cxx / node (fast_float)'" src/benchmark-tail-json-write.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native-$set'" -e "TITLE='write history / $cxx / native (fast_float)'" src/benchmark-tail-json-write.$set.gp
         # average
         gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='average read / $cxx / node (default)'" src/benchmark-average-json-read.gp
         gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='average read / $cxx / native (default)'" src/benchmark-average-json-read.gp
