@@ -2,12 +2,8 @@
 
 --------------------------------------------------------------------------------
 
-###### Read
-  ![read / native (default)](figures/cross.head.default.json.native-read.svg)
-  ![read / native (fast_float)](figures/cross.head.fast_float.json.native-read.svg)
-  ![read / node (default)](figures/cross.head.default.json.node-read.svg)
-  ![read / node (fast_float)](figures/cross.head.fast_float.json.node-read.svg)
+These benchmarks run on [`GitHub`](https://github.com/oknenavin/cxon/actions/workflows/benchmarks.yml).  
+The code can be found in `CXON`'s repository under `test/src/json/`.  
 
-###### Write
-  ![write / native (default)](figures/cross.head.default.json.native-write.svg)
-  ![write / node (default)](figures/cross.head.default.json.node-write.svg)
+- [Set #1](cross-s1.md)
+- [Set #2](cross-s2.md)

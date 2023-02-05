@@ -7,60 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout workflows-data
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: gnuplot setup
       run: |
         sudo apt-get update
         sudo apt-get install gnuplot
-    - name: Individual
+    - name: Generate
       run: |
         cd cxon/benchmarks
-        for cxx in g++ clang++ msvc++ xcode; do
-            # benchmarks
-            gnuplot -e "INPUT='data/time/$cxx.head.default.json.node'" -e "OUTPUT='figures/$cxx.head.default.json.node'" src/benchmark-head-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.default.json.native'" -e "OUTPUT='figures/$cxx.head.default.json.native'" src/benchmark-head-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.node'" -e "OUTPUT='figures/$cxx.head.fast_float.json.node'" src/benchmark-head-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.native'" -e "OUTPUT='figures/$cxx.head.fast_float.json.native'" src/benchmark-head-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.default.json.node'" -e "OUTPUT='figures/$cxx.head.default.json.node'" src/benchmark-head-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.default.json.native'" -e "OUTPUT='figures/$cxx.head.default.json.native'" src/benchmark-head-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.node'" -e "OUTPUT='figures/$cxx.head.fast_float.json.node'" src/benchmark-head-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.head.fast_float.json.native'" -e "OUTPUT='figures/$cxx.head.fast_float.json.native'" src/benchmark-head-json-write.gp
-            # history
-            gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node'" -e "OUTPUT='figures/$cxx.tail.default.json.node'" -e "TITLE='read history / $cxx / node (default)'" src/benchmark-tail-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='read history / $cxx / native (default)'" src/benchmark-tail-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node'" -e "TITLE='read history / $cxx / node (fast_float)'" src/benchmark-tail-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native'" -e "TITLE='read history / $cxx / native (fast_float)'" src/benchmark-tail-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node'" -e "OUTPUT='figures/$cxx.tail.default.json.node'" -e "TITLE='write history / $cxx / node (default)'" src/benchmark-tail-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='write history / $cxx / native (default)'" src/benchmark-tail-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node'" -e "TITLE='write history / $cxx / node (fast_float)'" src/benchmark-tail-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native'" -e "TITLE='write history / $cxx / native (fast_float)'" src/benchmark-tail-json-write.gp
-            # average
-            gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node'" -e "OUTPUT='figures/$cxx.tail.default.json.node'" -e "TITLE='average read / $cxx / node (default)'" src/benchmark-average-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='average read / $cxx / native (default)'" src/benchmark-average-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node'" -e "TITLE='average read / $cxx / node (fast_float)'" src/benchmark-average-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native'" -e "TITLE='average read / $cxx / native (fast_float)'" src/benchmark-average-json-read.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node'" -e "OUTPUT='figures/$cxx.tail.default.json.node'" -e "TITLE='average write / $cxx / node (default)'" src/benchmark-average-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native'" -e "OUTPUT='figures/$cxx.tail.default.json.native'" -e "TITLE='average write / $cxx / native (default)'" src/benchmark-average-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.node'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.node'" -e "TITLE='average write / $cxx / node (fast_float)'" src/benchmark-average-json-write.gp
-            gnuplot -e "INPUT='data/time/$cxx.tail.fast_float.json.native'" -e "OUTPUT='figures/$cxx.tail.fast_float.json.native'" -e "TITLE='average write / $cxx / native (fast_float)'" src/benchmark-average-json-write.gp
-        done
-        for cxx in g++ clang++; do
-            # space
-            gnuplot -e "INPUT='data/space/$cxx.head.default.json'" -e "OUTPUT='figures/$cxx.head.default.json'" src/benchmark-space-head.gp
-            gnuplot -e "INPUT='data/space/$cxx.tail.default.json'" -e "OUTPUT='figures/$cxx.tail.default.json'" src/benchmark-space-tail.gp
-        done
-    - name: Cross
-      run: |
-        cd cxon/benchmarks
-        # benchmarks
-        gnuplot -e "INPUT='data/time/head.default.json.node'" -e "OUTPUT='figures/cross.head.default.json.node'" -e "TITLE='read / cross / node (default)'" src/benchmark-cross-head-json-read.gp
-        gnuplot -e "INPUT='data/time/head.default.json.native'" -e "OUTPUT='figures/cross.head.default.json.native'" -e "TITLE='read / cross / native (default)'" src/benchmark-cross-head-json-read.gp
-        gnuplot -e "INPUT='data/time/head.fast_float.json.node'" -e "OUTPUT='figures/cross.head.fast_float.json.node'" -e "TITLE='read / cross / node (fast_float)'" src/benchmark-cross-head-json-read.gp
-        gnuplot -e "INPUT='data/time/head.fast_float.json.native'" -e "OUTPUT='figures/cross.head.fast_float.json.native'" -e "TITLE='read / cross / native (fast_float)'" src/benchmark-cross-head-json-read.gp
-        gnuplot -e "INPUT='data/time/head.default.json.node'" -e "OUTPUT='figures/cross.head.default.json.node'" -e "TITLE='write / cross / node (default)'" src/benchmark-cross-head-json-write.gp
-        gnuplot -e "INPUT='data/time/head.default.json.native'" -e "OUTPUT='figures/cross.head.default.json.native'" -e "TITLE='write / cross / native (default)'" src/benchmark-cross-head-json-write.gp
-        gnuplot -e "INPUT='data/time/head.fast_float.json.node'" -e "OUTPUT='figures/cross.head.fast_float.json.node'" -e "TITLE='write / cross / node (fast_float)'" src/benchmark-cross-head-json-write.gp
-        gnuplot -e "INPUT='data/time/head.fast_float.json.native'" -e "OUTPUT='figures/cross.head.fast_float.json.native'" -e "TITLE='write / cross / native (fast_float)'" src/benchmark-cross-head-json-write.gp
+        chmod +x src/plot-all.sh
+        src/plot-all.sh
     - name: Commit
       run: |
         cd cxon/benchmarks
