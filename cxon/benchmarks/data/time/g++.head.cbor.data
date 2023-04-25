@@ -1,19 +1,19 @@
-# 2023-04-22T21:42:13+00:00 / g++-12 (Linux x86_64)
-# cbor/node         Size   Read   Write
-blns.json           0.02 443.83 1403.97
-emoji.json          0.23 116.30  342.04
-apache_builds.json  0.08 176.83  553.18
-canada.json         1.01 104.14  196.85
-citm_catalog.json   0.33  80.21  276.19
-github_events.json  0.05 263.57  810.82
-gsoc-2018.json      2.86 667.24 1152.44
-instruments.json    0.08 111.72  340.20
-marine_ik.json      1.45 104.20  182.77
-mesh.json           0.40 147.71  214.38
-mesh.pretty.json    0.40 147.46  214.67
-numbers.json        0.09 267.25  221.87
-random.json         0.37 128.78  399.23
-twitter.json        0.38 208.39  637.07
-twitterescaped.json 0.38 208.48  638.34
-update-center.json  0.45 197.22  597.45
-<average>           0.53 210.83  511.34
+# 2023-04-25T22:10:04+00:00 / g++-12 (Linux x86_64)
+# cbor/node         Size    Read   Write
+blns.json           0.02  381.61 1206.73
+emoji.json          0.23   99.06  286.31
+apache_builds.json  0.08  256.80  466.77
+canada.json         1.01  169.46  164.26
+citm_catalog.json   0.33  118.52  231.45
+github_events.json  0.05  371.85  681.81
+gsoc-2018.json      2.86 1010.56 1309.21
+instruments.json    0.08  155.03  285.22
+marine_ik.json      1.45  146.15  151.39
+mesh.json           0.40  129.18  179.03
+mesh.pretty.json    0.40  128.92  179.13
+numbers.json        0.09  235.89  185.58
+random.json         0.37  177.77  335.16
+twitter.json        0.38  279.63  539.31
+twitterescaped.json 0.38  281.54  542.59
+update-center.json  0.45  255.15  501.31
+<average>           0.53  262.32  452.83
