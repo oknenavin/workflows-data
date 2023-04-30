@@ -205,9 +205,9 @@
 	<g id="gnuplot_plot_2" ><title>gnuplot_plot_2</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '201.78,350.68 216.60,350.68 216.60,291.77 201.78,291.77 '/>
+		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '201.78,350.68 216.60,350.68 216.60,292.34 201.78,292.34 '/>
 	</g>
-	<path stroke='rgb( 50, 205,  50)'  d='M201.78,350.68 L201.78,291.78 L216.59,291.78 L216.59,350.68 L201.78,350.68 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+	<path stroke='rgb( 50, 205,  50)'  d='M201.78,350.68 L201.78,292.35 L216.59,292.35 L216.59,350.68 L201.78,350.68 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '286.39,350.68 301.21,350.68 301.21,281.58 286.39,281.58 '/>
 	</g>
 	<path stroke='rgb( 50, 205,  50)'  d='M286.39,350.68 L286.39,281.59 L301.20,281.59 L301.20,350.68 L286.39,350.68 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
@@ -223,9 +223,9 @@
 		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '624.83,350.68 639.65,350.68 639.65,297.43 624.83,297.43 '/>
 	</g>
 	<path stroke='rgb( 50, 205,  50)'  d='M624.83,350.68 L624.83,297.44 L639.64,297.44 L639.64,350.68 L624.83,350.68 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '709.44,350.68 724.26,350.68 724.26,138.29 709.44,138.29 '/>
+		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '709.44,350.68 724.26,350.68 724.26,136.03 709.44,136.03 '/>
 	</g>
-	<path stroke='rgb( 50, 205,  50)'  d='M709.44,350.68 L709.44,138.30 L724.25,138.30 L724.25,350.68 L709.44,350.68 Z  '/></g>
+	<path stroke='rgb( 50, 205,  50)'  d='M709.44,350.68 L709.44,136.04 L724.25,136.04 L724.25,350.68 L709.44,350.68 Z  '/></g>
 	</g>
 	<g id="gnuplot_plot_3" ><title>''   using ($0 - dx):2:2</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -254,8 +254,8 @@
 	</g>
 	<g id="gnuplot_plot_4" ><title>''   using ($0 + dx):3:3</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(203.90,285.83)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
-		<text>1.04</text>
+	<g transform="translate(203.90,286.40)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
+		<text>1.03</text>
 	</g>
 	<g transform="translate(288.51,275.64)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
 		<text>1.22</text>
@@ -272,8 +272,8 @@
 	<g transform="translate(626.95,291.49)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
 		<text>0.94</text>
 	</g>
-	<g transform="translate(711.56,132.35)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
-		<text>3.75</text>
+	<g transform="translate(711.56,130.09)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
+		<text>3.79</text>
 	</g>
 </g>
 	</g>
@@ -287,7 +287,7 @@
 	<path stroke='black'  d='M114.00,67.51 L114.00,350.68 L790.88,350.68 L790.88,67.51 M114.00,67.51  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(452.44,37.04)" stroke="none" fill="black" font-family="Arial" font-size="17.00"  text-anchor="middle">
-		<text>clang++-14.0.0 -std=c++20 -O2 -s -DNDEBUG (Linux x86_64) / 2023-04-28</text>
+		<text>clang++-14.0.0 -std=c++20 -O2 -s -DNDEBUG (Linux x86_64) / 2023-04-30</text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
