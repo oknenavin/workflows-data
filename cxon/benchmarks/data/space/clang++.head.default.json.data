@@ -1,9 +1,9 @@
-# 2024-01-06T03:49:51+00:00 / clang++-15.0.7 -std=c++20 -O2 -s -DNDEBUG (Linux x86_64)
+# 2024-01-13T03:50:10+00:00 / clang++-15.0.7 -std=c++20 -O2 -s -DNDEBUG (Linux x86_64)
 #                     size  time
-"cxon (native #0)"   14784  0.99
-"cxon (native #1)"   18896  1.15
-"cxon (native #2)"   31248  1.23
+"cxon (native #0)"   14784  1.00
+"cxon (native #1)"   18896  1.19
+"cxon (native #2)"   31248  1.24
 "cxon (node)"        35360  1.48
-"boost/json"        240640  4.46
-"rapidjson"          26968  0.88
-"nlohmann.json"      92808  3.33
+"boost/json"        240640  4.41
+"rapidjson"          26968  0.85
+"nlohmann.json"      92808  3.30
