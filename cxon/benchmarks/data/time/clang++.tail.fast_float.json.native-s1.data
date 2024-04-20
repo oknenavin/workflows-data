@@ -74,9 +74,6 @@ twitter.json         0.60  498.21  1.13      441.31  1.12     443.60  3.94      
 twitterescaped.json  0.54  365.44  0.93      390.91  0.98     371.60  3.30         110.68   976.61  0.82     1192.80  1.54     635.72  2.81         347.55
 update-center.json   0.51  360.39  0.83      431.78  1.13     317.69  3.22         112.05   707.02  0.86      826.57  1.29     547.69  2.85         248.16
 <average>            0.94  532.89  1.04      512.45  1.08     495.29  4.35         122.55   864.29  0.87      992.68  1.33     648.20  2.34         369.70
-# 2024-04-19T23:28:53+00:00 / clang++-15.0.7 (Linux x86_64) / native (boost::json)
-# 2024-04-19T22:56:06+00:00 / clang++-15.0.7 (Linux x86_64) / native (boost::json)
-# 2024-04-19T22:13:05+00:00 / clang++-15.0.7 (Linux x86_64) / native (boost::json)
 # 2024-04-19T18:31:30+00:00 / clang++-15.0.7 (Linux x86_64) / native (fast_float)
 # cxon/native        Size    Read     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON    Write     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON
 blns.json            0.03  316.44  0.76      415.30  0.93     339.21  2.21         143.42   890.01  0.77     1151.85  1.51     590.36  2.57         346.20

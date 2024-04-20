@@ -17,12 +17,6 @@ twitter.json         0.60  200.99  0.84      238.46  0.65     310.65  3.63      
 twitterescaped.json  0.54  158.14  0.77      204.65  0.63     249.38  3.27          48.33  463.48  0.73      630.76  0.85     546.98  3.14         147.50
 update-center.json   0.51  152.83  0.80      190.97  0.66     231.59  3.52          43.44  356.26  0.83      428.48  0.74     481.74  3.19         111.77
 <average>            0.94  179.06  0.70      257.54  0.57     312.17  3.68          48.71  384.69  0.72      537.46  0.77     497.99  2.36         163.29
-# 2024-04-20T07:49:47+00:00 / clang++-14.0.0.14000029 (Darwin x86_64) / node (boost::json)
-# 2024-04-20T00:09:38+00:00 / clang++-14.0.0.14000029 (Darwin x86_64) / node (boost::json)
-# 2024-04-19T23:47:54+00:00 / clang++-14.0.0.14000029 (Darwin x86_64) / node (boost::json)
-# 2024-04-19T23:30:17+00:00 / clang++-14.0.0.14000029 (Darwin x86_64) / node (boost::json)
-# 2024-04-19T22:55:59+00:00 / clang++-14.0.0.14000029 (Darwin x86_64) / node (boost::json)
-# 2024-04-19T22:15:00+00:00 / clang++-14.0.0.14000029 (Darwin x86_64) / node (boost::json)
 # 2024-04-19T18:31:57+00:00 / clang++-14.0.0.14000029 (Darwin x86_64) / node (fast_float)
 # cxon/node          Size    Read     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON    Write     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON
 blns.json            0.03  212.90  0.88      242.92  0.71     301.55  3.81          55.88   461.08  0.74      625.73  0.67     693.27  2.91         158.34

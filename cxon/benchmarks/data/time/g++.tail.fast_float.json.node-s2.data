@@ -70,9 +70,6 @@ random-string.json  4.55  334.01  1.09      306.95  0.75     446.18  3.19       
 random-array.json   2.14  176.31  0.47      378.51  0.39     457.65  2.74          64.37  359.87  0.92      391.99  1.78     202.33  1.85         194.96
 random-object.json  2.52  162.08  0.56      292.00  0.39     420.55  2.89          56.18  343.20  0.86      399.61  1.53     224.96  1.63         210.83
 <average>           1.43  248.36  0.97      255.23  0.70     356.09  2.90          85.68  396.92  0.91      437.11  0.83     477.06  1.47         269.22
-# 2024-04-19T23:26:41+00:00 / g++-12 (Linux x86_64) / node (boost::json)
-# 2024-04-19T22:55:44+00:00 / g++-12 (Linux x86_64) / node (boost::json)
-# 2024-04-19T22:12:48+00:00 / g++-12 (Linux x86_64) / node (boost::json)
 # 2024-04-19T18:32:05+00:00 / g++-12 (Linux x86_64) / node (fast_float)
 # cxon/node         Size    Read     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON   Write     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON
 random-u8.json      0.34   68.68  0.77       88.92  0.43     158.86  1.17          58.68  188.55  0.81      232.65  0.55     341.78  0.96         195.68
