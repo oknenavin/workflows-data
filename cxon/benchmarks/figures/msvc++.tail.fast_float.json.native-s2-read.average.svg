@@ -439,7 +439,7 @@
 	<path stroke='black'  d='M84.63,67.51 L84.63,553.80 L1121.67,553.80 L1121.67,67.51 L84.63,67.51 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(603.15,37.04)" stroke="none" fill="black" font-family="Arial" font-size="17.00"  text-anchor="middle">
-		<text>average read / msvc++ / native (fast_float)</text>
+		<text>average read / msvc++ / native (boost::charconv)</text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
