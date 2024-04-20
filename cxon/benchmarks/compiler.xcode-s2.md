@@ -4,9 +4,9 @@
 
 ###### Read
   ![read / native (default)](figures/xcode.head.default.json.native-s2-read.svg)
-  ![read / native (fast_float)](figures/xcode.head.fast_float.json.native-s2-read.svg)
+  ![read / native (boost::charconv)](figures/xcode.head.fast_float.json.native-s2-read.svg)
   ![read / node (default)](figures/xcode.head.default.json.node-s2-read.svg)
-  ![read / node (fast_float)](figures/xcode.head.fast_float.json.node-s2-read.svg)
+  ![read / node (boost::charconv)](figures/xcode.head.fast_float.json.node-s2-read.svg)
 
 ###### Write
   ![write / native (default)](figures/xcode.head.default.json.native-s2-write.svg)
@@ -15,9 +15,9 @@
 
 ###### Read history
   ![read / native (default)](figures/xcode.tail.default.json.native-s2-read.svg)
-  ![read / native (fast_float)](figures/xcode.tail.fast_float.json.native-s2-read.svg)
+  ![read / native (boost::charconv)](figures/xcode.tail.fast_float.json.native-s2-read.svg)
   ![read / node (default)](figures/xcode.tail.default.json.node-s2-read.svg)
-  ![read / node (fast_float)](figures/xcode.tail.fast_float.json.node-s2-read.svg)
+  ![read / node (boost::charconv)](figures/xcode.tail.fast_float.json.node-s2-read.svg)
 
 ###### Write history
   ![write / native (default)](figures/xcode.tail.default.json.native-s2-write.svg)
