@@ -14,7 +14,7 @@ set xlabel 'Time' font ',17'
 set format x ''
 
 set output OUTPUT.'-read.average.svg'
-plot INPUT.'.data'   every 17:1:16 using 3 axes x1y1 smooth acsplines with line dt 1 lw 2 lc rgb '#FF8C00' title 'cxon', \
+plot INPUT.'.data'   every 17:1:16 using 3 axes x1y1 smooth acsplines with line dt 1 lw 3 lc rgb '#FF8C00' title 'cxon', \
                 ''   every 17:1:16 using 4 axes x1y2 smooth acsplines with line dt 3 lw 3 lc rgb '#32CD32' notitle, \
                 ''   every 17:1:16 using 5 axes x1y1 smooth acsplines with line dt 1 lw 2 lc rgb '#32CD32' title 'boost/json', \
                 ''   every 17:1:16 using 6 axes x1y2 smooth acsplines with line dt 3 lw 3 lc rgb '#DC143C' notitle, \
