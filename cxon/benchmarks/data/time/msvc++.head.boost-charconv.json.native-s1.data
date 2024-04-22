@@ -1,4 +1,4 @@
-# 2024-04-21T20:32:17+00:00 / msvc++-19.38.33135.0 (MINGW64_NT-10.0-20348 x86_64) / native (boost::json)
+# 2024-04-21T20:32:17+00:00 / msvc++-19.38.33135.0 (MINGW64_NT-10.0-20348 x86_64) / native (boost::charconv)
 # cxon/native        Size    Read     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON    Write     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON
 blns.json            0.03  270.18  0.87      312.33  0.89     304.07  2.17         124.46   610.24  0.97      632.14  1.11     551.64  2.58         236.56
 emoji.json           0.41  326.55  1.84      177.27  1.69     192.98  3.82          85.52   687.32  1.54      445.09  1.01     679.83  2.25         304.92
