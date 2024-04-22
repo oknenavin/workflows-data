@@ -10,4 +10,6 @@
 
 ###### Write
   ![write / native (default)](figures/msvc++.tail.default.json.native-s1-write.average.svg)
+  ![write / native (boost::charconv)](figures/msvc++.tail.boost-charconv.json.native-s1-write.average.svg)
   ![write / node (default)](figures/msvc++.tail.default.json.node-s1-write.average.svg)
+  ![write / node (boost::charconv)](figures/msvc++.tail.boost-charconv.json.node-s1-write.average.svg)

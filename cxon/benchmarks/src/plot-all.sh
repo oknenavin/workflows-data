@@ -22,14 +22,14 @@ for cxx in g++ clang++ msvc++ xcode; do
         gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.node-$set'" -e "TITLE='write history / $cxx / node (boost::charconv)'" src/benchmark-tail-json-write.$set.gp
         gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.native-$set'" -e "TITLE='write history / $cxx / native (boost::charconv)'" src/benchmark-tail-json-write.$set.gp
         # average
-        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='average read / $cxx / node (default)'" src/benchmark-average-json-read.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='average read / $cxx / native (default)'" src/benchmark-average-json-read.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.node-$set'" -e "TITLE='average read / $cxx / node (boost::charconv)'" src/benchmark-average-json-read.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.native-$set'" -e "TITLE='average read / $cxx / native (boost::charconv)'" src/benchmark-average-json-read.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='average write / $cxx / node (default)'" src/benchmark-average-json-write.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='average write / $cxx / native (default)'" src/benchmark-average-json-write.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.node-$set'" -e "TITLE='average write / $cxx / node (boost::charconv)'" src/benchmark-average-json-write.gp
-        gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.native-$set'" -e "TITLE='average write / $cxx / native (boost::charconv)'" src/benchmark-average-json-write.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='average read / $cxx / node (default)'" src/benchmark-average-json-read.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='average read / $cxx / native (default)'" src/benchmark-average-json-read.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.node-$set'" -e "TITLE='average read / $cxx / node (boost::charconv)'" src/benchmark-average-json-read.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.native-$set'" -e "TITLE='average read / $cxx / native (boost::charconv)'" src/benchmark-average-json-read.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.node-$set'" -e "TITLE='average write / $cxx / node (default)'" src/benchmark-average-json-write.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.default.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.default.json.native-$set'" -e "TITLE='average write / $cxx / native (default)'" src/benchmark-average-json-write.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.node-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.node-$set'" -e "TITLE='average write / $cxx / node (boost::charconv)'" src/benchmark-average-json-write.$set.gp
+        gnuplot -e "INPUT='data/time/$cxx.tail.boost-charconv.json.native-$set'" -e "OUTPUT='figures/$cxx.tail.boost-charconv.json.native-$set'" -e "TITLE='average write / $cxx / native (boost::charconv)'" src/benchmark-average-json-write.$set.gp
     done
 done
 for cxx in g++ clang++; do
