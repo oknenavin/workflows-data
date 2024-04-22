@@ -1,4 +1,4 @@
-# 2024-04-21T20:11:14+00:00 / msvc++-19.38.33135.0 (MINGW64_NT-10.0-20348 x86_64) / node (boost::json)
+# 2024-04-21T20:11:14+00:00 / msvc++-19.38.33135.0 (MINGW64_NT-10.0-20348 x86_64) / node (boost::charconv)
 # cxon/node         Size    Read     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON   Write     x  Boost/JSON     x  RapidJSON     x  nlohmann/JSON
 random-u8.json      0.34   58.73  0.52      112.16  1.11      53.10  1.95          30.13  138.06  0.80      171.70  0.47     292.26  0.76         180.61
 random-s8.json      0.35   57.61  0.56      102.81  1.13      50.91  1.91          30.10  123.99  0.64      192.53  0.46     269.81  0.76         164.13
