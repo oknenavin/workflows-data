@@ -7,7 +7,7 @@ The code can be found in `CXON` repository under `test/src/json/`.
 
 #### Set #1
 The benchmark data is commonly used and is currently not described here, but information about it can
-be found elsewhere - e.g. [`boost/json`](https://www.boost.org/doc/libs/1_75_0/libs/json/doc/html/json/benchmarks.html).
+be found elsewhere - e.g. [`boost/json`](https://www.boost.org/doc/libs/1_85_0/libs/json/doc/html/json/benchmarks.html).
 The files can be found in `CXON` repository under `test/data/json`.
 
   - [`g++`](average.g++-s1.md)
