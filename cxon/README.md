@@ -9,6 +9,10 @@
     - [Cross-compiler figures](benchmarks/cross.md)
   - [Binary size and compilation times](#binary-size-and-compilation-times)
     - [Code](#code)
+
+*Note: Boost.JSON and RapidJSON use faster but slightly imprecise number parsing algorithms.
+In the benchmarks they are tested with full-precision enabled.*
+
 --------------------------------------------------------------------------------
 
 ##### Binary size and compilation times
@@ -118,7 +122,9 @@ int main() {
 
 int main() {
     boost::system::error_code ec;
-    boost::json::value v = boost::json::parse("[42]", ec);
+    boost::json::parse_options opt;
+        opt.numbers = boost::json::number_precision::precise;
+    boost::json::value v = boost::json::parse("[42]", ec, {}, opt);
     return !(ec == std::errc{} && v.is_array() && v.as_array().size() == 1 && v.as_array()[0] == 42);
 }
 ```
@@ -130,7 +136,8 @@ int main() {
 
 int main() {
     rapidjson::Document d;
-    rapidjson::ParseResult r = d.Parse("[42]");
+    auto constexpr opt = rapidjson::kParseValidateEncodingFlag|rapidjson::kParseFullPrecisionFlag;
+    rapidjson::ParseResult r = d.Parse<opt>("[42]");
     return !(r && d.IsArray() && d.GetArray().Size() == 1 && d.GetArray()[0] == 42);
 }
 ```
@@ -151,4 +158,3 @@ int main () {
     return !(j.is_array() && j.array().size() == 42 && j.array()[0] == 42);
 }
 ```
-
