@@ -10,7 +10,7 @@
   - [Binary size and compilation times](#binary-size-and-compilation-times)
     - [Code](#code)
 
-*Note: Boost.JSON and RapidJSON use faster but slightly imprecise number parsing algorithms.
+*Note: Boost.JSON and RapidJSON use faster but slightly imprecise number parsing algorithms by default.
 In the benchmarks they are tested with full-precision enabled.*
 
 --------------------------------------------------------------------------------
