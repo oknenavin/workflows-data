@@ -7,7 +7,7 @@
 >
 
 <title>Gnuplot</title>
-<desc>Produced by GNUPLOT 6.0 patchlevel 0 </desc>
+<desc>Produced by GNUPLOT 5.4 patchlevel 2 </desc>
 
 <g id="gnuplot_canvas">
 
@@ -242,9 +242,19 @@
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<path stroke='black'  d='M84.63,70.51 L84.63,553.80 L1170.62,553.80 L1170.62,70.51 L84.63,70.51 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(23.35,312.16) rotate(270)" stroke="none" fill="black" font-family="Arial" font-size="17.00"  text-anchor="middle">
+		<text>Throughput (MB/s)</text>
+	</g>
 </g>
-	<g id="gnuplot_plot_1"  fill="none"><title>gnuplot_plot_1</title>
-<g fill="none" color="#FFFFFF" stroke="black" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(627.62,590.83)" stroke="none" fill="black" font-family="Arial" font-size="17.00"  text-anchor="middle">
+		<text>Time</text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
+<g fill="none" color="#FFFFFF" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1091.59,96.06)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="end">
@@ -266,7 +276,7 @@
 		L906.72,383.34 L916.28,384.26 L925.84,384.77 L935.40,384.44 L944.96,383.32 L954.52,381.64 L964.08,379.71 L973.64,377.78
 		L983.20,376.19 L992.76,375.32 L1002.32,375.61 L1011.87,377.25 L1021.43,379.91 L1030.99,383.11  '/></g>
 	</g>
-	<g id="gnuplot_plot_2"  fill="none"><title>gnuplot_plot_2</title>
+	<g id="gnuplot_plot_2" ><title>gnuplot_plot_2</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1091.59,117.06)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="end">
 		<text>canada.json</text>
@@ -287,7 +297,7 @@
 		L906.72,479.02 L916.28,478.89 L925.84,479.20 L935.40,480.12 L944.96,481.45 L954.52,483.15 L964.08,485.30 L973.64,487.77
 		L983.20,489.17 L992.76,487.45 L1002.32,483.82 L1011.87,480.09 L1021.43,476.70 L1030.99,473.60  '/></g>
 	</g>
-	<g id="gnuplot_plot_3"  fill="none"><title>gnuplot_plot_3</title>
+	<g id="gnuplot_plot_3" ><title>gnuplot_plot_3</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1091.59,138.06)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="end">
 		<text>citm_catalog.json</text>
@@ -308,7 +318,7 @@
 		L906.72,113.68 L916.28,116.69 L925.84,120.18 L935.40,122.58 L944.96,122.12 L954.52,119.35 L964.08,115.98 L973.64,113.29
 		L983.20,112.16 L992.76,113.06 L1002.32,115.54 L1011.87,118.44 L1021.43,119.86 L1030.99,119.81  '/></g>
 	</g>
-	<g id="gnuplot_plot_4"  fill="none"><title>gnuplot_plot_4</title>
+	<g id="gnuplot_plot_4" ><title>gnuplot_plot_4</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1091.59,159.06)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="end">
 		<text>github_events.json</text>
@@ -329,7 +339,7 @@
 		L906.72,411.79 L916.28,411.74 L925.84,411.09 L935.40,409.96 L944.96,408.80 L954.52,407.93 L964.08,407.52 L973.64,407.55
 		L983.20,407.91 L992.76,408.40 L1002.32,408.68 L1011.87,408.74 L1021.43,409.17 L1030.99,410.01  '/></g>
 	</g>
-	<g id="gnuplot_plot_5"  fill="none"><title>gnuplot_plot_5</title>
+	<g id="gnuplot_plot_5" ><title>gnuplot_plot_5</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1091.59,180.06)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="end">
 		<text>instruments.json</text>
@@ -350,7 +360,7 @@
 		L906.72,207.46 L916.28,209.13 L925.84,210.26 L935.40,210.92 L944.96,212.16 L954.52,214.04 L964.08,215.67 L973.64,215.10
 		L983.20,212.49 L992.76,210.07 L1002.32,208.85 L1011.87,208.62 L1021.43,207.96 L1030.99,206.59  '/></g>
 	</g>
-	<g id="gnuplot_plot_6"  fill="none"><title>gnuplot_plot_6</title>
+	<g id="gnuplot_plot_6" ><title>gnuplot_plot_6</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(1091.59,201.06)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="end">
 		<text>random.json</text>
@@ -371,7 +381,7 @@
 		L906.72,469.72 L916.28,472.82 L925.84,476.01 L935.40,478.13 L944.96,478.57 L954.52,478.55 L964.08,479.62 L973.64,481.47
 		L983.20,483.12 L992.76,483.36 L1002.32,481.98 L1011.87,479.62 L1021.43,477.77 L1030.99,476.67  '/></g>
 	</g>
-	<g id="gnuplot_plot_7"  fill="none"><title>gnuplot_plot_7</title>
+	<g id="gnuplot_plot_7" ><title>gnuplot_plot_7</title>
 <g fill="none" color="#FFFFFF" stroke="rgb(240, 228,  66)" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -401,17 +411,7 @@
 <g fill="none" color="black" stroke="black" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M84.63,70.51 L84.63,553.80 L1170.62,553.80 L1170.62,70.51 L84.63,70.51 Z  '/>	<g transform="translate(23.35,312.16) rotate(270.00)" stroke="none" fill="black" font-family="Arial" font-size="17.00"  text-anchor="middle">
-		<text>Throughput (MB/s)</text>
-	</g>
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(627.62,590.83)" stroke="none" fill="black" font-family="Arial" font-size="17.00"  text-anchor="middle">
-		<text>Time</text>
-	</g>
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-</g>
+	<path stroke='black'  d='M84.63,70.51 L84.63,553.80 L1170.62,553.80 L1170.62,70.51 L84.63,70.51 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(627.62,37.69)" stroke="none" fill="black" font-family="Arial" font-size="19.00"  text-anchor="middle">
 		<text>read history / msvc++ / native (boost::charconv)</text>
