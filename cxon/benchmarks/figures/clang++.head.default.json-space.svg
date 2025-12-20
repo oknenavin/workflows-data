@@ -213,9 +213,9 @@
 		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '201.78,350.68 216.60,350.68 216.60,271.38 201.78,271.38 '/>
 	</g>
 	<path stroke='rgb( 50, 205,  50)'  d='M201.78,350.68 L201.78,271.39 L216.59,271.39 L216.59,350.68 L201.78,350.68 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
-		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '286.39,350.68 301.21,350.68 301.21,260.06 286.39,260.06 '/>
+		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '286.39,350.68 301.21,350.68 301.21,261.47 286.39,261.47 '/>
 	</g>
-	<path stroke='rgb( 50, 205,  50)'  d='M286.39,350.68 L286.39,260.07 L301.20,260.07 L301.20,350.68 L286.39,350.68 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+	<path stroke='rgb( 50, 205,  50)'  d='M286.39,350.68 L286.39,261.48 L301.20,261.48 L301.20,350.68 L286.39,350.68 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
 		<polygon fill = 'rgb( 50, 205,  50)' fill-opacity = '0.700000' points = '371.00,350.68 385.82,350.68 385.82,253.68 371.00,253.68 '/>
 	</g>
 	<path stroke='rgb( 50, 205,  50)'  d='M371.00,350.68 L371.00,253.69 L385.81,253.69 L385.81,350.68 L371.00,350.68 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
@@ -262,8 +262,8 @@
 	<g transform="translate(203.90,265.44)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
 		<text>1.12</text>
 	</g>
-	<g transform="translate(288.51,254.12)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
-		<text>1.28</text>
+	<g transform="translate(288.51,255.53)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
+		<text>1.26</text>
 	</g>
 	<g transform="translate(373.12,247.74)" stroke="none" fill="black" font-family="Arial" font-size="14.00"  text-anchor="start">
 		<text>1.37</text>
@@ -302,7 +302,7 @@
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(452.44,37.04)" stroke="none" fill="black" font-family="Arial" font-size="17.00"  text-anchor="middle">
-		<text>clang++-19.1.1 -std=c++20 -O2 -s -DNDEBUG (Linux x86_64) / 2025-12-13</text>
+		<text>clang++-19.1.1 -std=c++20 -O2 -s -DNDEBUG (Linux x86_64) / 2025-12-20</text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
