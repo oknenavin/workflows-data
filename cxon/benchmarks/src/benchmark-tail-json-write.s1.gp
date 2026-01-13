@@ -12,6 +12,7 @@ plot INPUT.'.data'   every 17::2  using 10 smooth acsplines with line dt 1 lw 2 
                 ''   every 17::3  using 10 smooth acsplines with line dt 1 lw 2 lc 1 title 'canada.json', \
                 ''   every 17::4  using 10 smooth acsplines with line dt 1 lw 2 lc 2 title 'citm_catalog.json', \
                 ''   every 17::5  using 10 smooth acsplines with line dt 1 lw 2 lc 3 title 'github_events.json', \
-                ''   every 17::7  using 10 smooth acsplines with line dt 1 lw 2 lc 4 title 'instruments.json', \
-                ''   every 17::12 using 10 smooth acsplines with line dt 1 lw 2 lc 5 title 'random.json', \
-                ''   every 17::16 using 10 smooth acsplines with line dt 3 lw 3 lc 6 title '<average>.json'
+                ''   every 17::6  using 10 smooth acsplines with line dt 1 lw 2 lc 4 title 'gsoc-2018.json', \
+                ''   every 17::7  using 10 smooth acsplines with line dt 1 lw 2 lc 5 title 'instruments.json', \
+                ''   every 17::12 using 10 smooth acsplines with line dt 1 lw 2 lc 6 title 'random.json', \
+                ''   every 17::16 using 10 smooth acsplines with line dt 3 lw 3 lc 7 title '<average>.json'
