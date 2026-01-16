@@ -14,10 +14,10 @@ set xlabel 'Time' font ',17'
 set format x ''
 
 set output OUTPUT.'-write.average.svg'
-plot INPUT.'.data'   every 16::15 using 10 axes x1y1 smooth acsplines with line dt 1 lw 3 lc rgb '#FF8C00' title 'cxon', \
-                ''   every 16::15 using 11 axes x1y2 smooth acsplines with line dt 3 lw 3 lc rgb '#32CD32' notitle, \
-                ''   every 16::15 using 12 axes x1y1 smooth acsplines with line dt 1 lw 2 lc rgb '#32CD32' title 'boost/json', \
-                ''   every 16::15 using 13 axes x1y2 smooth acsplines with line dt 3 lw 3 lc rgb '#DC143C' notitle, \
-                ''   every 16::15 using 14 axes x1y1 smooth acsplines with line dt 1 lw 2 lc rgb '#DC143C' title 'rapidjson', \
-                ''   every 16::15 using 15 axes x1y2 smooth acsplines with line dt 3 lw 3 lc rgb '#1E90FF' notitle, \
-                ''   every 16::15 using 16 axes x1y1 smooth acsplines with line dt 1 lw 2 lc rgb '#1E90FF' title 'nlohmann/json'
+plot INPUT.'.data'   every 16::15::1600 using 10 axes x1y1 smooth acsplines with line dt 1 lw 3 lc rgb '#FF8C00' title 'cxon', \
+                ''   every 16::15::1600 using 11 axes x1y2 smooth acsplines with line dt 3 lw 3 lc rgb '#32CD32' notitle, \
+                ''   every 16::15::1600 using 12 axes x1y1 smooth acsplines with line dt 1 lw 2 lc rgb '#32CD32' title 'boost/json', \
+                ''   every 16::15::1600 using 13 axes x1y2 smooth acsplines with line dt 3 lw 3 lc rgb '#DC143C' notitle, \
+                ''   every 16::15::1600 using 14 axes x1y1 smooth acsplines with line dt 1 lw 2 lc rgb '#DC143C' title 'rapidjson', \
+                ''   every 16::15::1600 using 15 axes x1y2 smooth acsplines with line dt 3 lw 3 lc rgb '#1E90FF' notitle, \
+                ''   every 16::15::1600 using 16 axes x1y1 smooth acsplines with line dt 1 lw 2 lc rgb '#1E90FF' title 'nlohmann/json'
