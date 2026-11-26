@@ -1,3 +1,12 @@
+# 2026-11-26T13:54:51+00:00 / g++-14 -std=c++20 -O2 -s -DNDEBUG (Linux x86_64)
+#                     size  time
+"cxon (native #0)"   14640  0.63
+"cxon (native #1)"   18736  0.81
+"cxon (native #2)"   31024  0.93
+"cxon (node)"        43320  1.14
+"boost/json"         22960  1.37
+"rapidjson"          43232  0.97
+"nlohmann.json"      96552  2.72
 # 2026-11-25T21:10:03+00:00 / g++-14 -std=c++20 -O2 -s -DNDEBUG (Linux x86_64)
 #                     size  time
 "cxon (native #0)"   14640  0.74
